@@ -13,30 +13,35 @@ const BASE = "https://api.beta.ons.gov.uk/v1";
 
 function Chart({ data }) {
   if (!data.length) return null;
+
+  // Only show every 12th label to avoid crowding
+  const tickFormatter = (value, index) => (index % 12 === 0 ? value : "");
+
   return (
-    <ResponsiveContainer width="100%" height={520}>
+    <ResponsiveContainer width="100%" height={500}>
       <LineChart
         data={data}
-        margin={{ top: 16, right: 32, bottom: 60, left: 48 }}
+        margin={{ top: 16, right: 40, bottom: 80, left: 60 }}
       >
         <CartesianGrid strokeDasharray="3 3" strokeOpacity={0.15} />
         <XAxis
           dataKey="label"
-          interval={11}
-          tick={{ fontSize: 12 }}
+          tickFormatter={tickFormatter}
+          tick={{ fontSize: 13 }}
           angle={-45}
           textAnchor="end"
-          height={70}
+          height={80}
+          interval={0}
         />
         <YAxis
-          tick={{ fontSize: 12 }}
-          width={48}
+          tick={{ fontSize: 13 }}
+          width={60}
           label={{
             value: "Index (2015=100)",
             angle: -90,
             position: "insideLeft",
-            offset: -8,
-            style: { fontSize: 12, fill: "#6b7280" },
+            offset: -10,
+            style: { fontSize: 13, fill: "#6b7280" },
           }}
         />
         <Tooltip
@@ -47,7 +52,7 @@ function Chart({ data }) {
           type="monotone"
           dataKey="value"
           dot={false}
-          strokeWidth={2}
+          strokeWidth={2.5}
           stroke="#2563eb"
         />
       </LineChart>
@@ -75,10 +80,9 @@ function RangeSlider({ total, range, onChange }) {
           To: <strong style={{ color: "#111" }}>index {range[1]}</strong>
         </span>
       </div>
-
       <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-          <label style={{ fontSize: 13, width: 32, color: "#6b7280" }}>
+          <label style={{ fontSize: 13, width: 36, color: "#6b7280" }}>
             Start
           </label>
           <input
@@ -93,9 +97,8 @@ function RangeSlider({ total, range, onChange }) {
             style={{ flex: 1, accentColor: "#2563eb" }}
           />
         </div>
-
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-          <label style={{ fontSize: 13, width: 32, color: "#6b7280" }}>
+          <label style={{ fontSize: 13, width: 36, color: "#6b7280" }}>
             End
           </label>
           <input
@@ -142,7 +145,6 @@ export default function App() {
       .finally(() => setLoading(false));
   }, []);
 
-  // Slice the data based on the range sliders
   const visibleData = useMemo(
     () => allData.slice(range[0], range[1] + 1),
     [allData, range],
@@ -154,13 +156,13 @@ export default function App() {
   return (
     <div
       style={{
-        maxWidth: 960,
-        margin: "0 auto",
-        padding: "2rem",
+        width: "100%",
+        boxSizing: "border-box",
+        padding: "2rem 3rem",
         fontFamily: "system-ui, sans-serif",
       }}
     >
-      <h1 style={{ fontSize: 24, fontWeight: 700, marginBottom: 4 }}>
+      <h1 style={{ fontSize: 26, fontWeight: 700, marginBottom: 4 }}>
         UK Inflation (CPIH)
       </h1>
       <p style={{ color: "#6b7280", fontSize: 14, marginBottom: 24 }}>
@@ -180,6 +182,7 @@ export default function App() {
               borderRadius: 10,
               padding: "1rem 1.5rem",
               marginBottom: 24,
+              maxWidth: 700,
             }}
           >
             <p
@@ -203,7 +206,19 @@ export default function App() {
             />
           </div>
 
-          <Chart data={visibleData} />
+          <div
+            style={{
+              width: "100%",
+              minWidth: 0,
+              background: "#fff",
+              border: "1px solid #e5e7eb",
+              borderRadius: 12,
+              padding: "1.5rem 1rem 1rem",
+              boxSizing: "border-box",
+            }}
+          >
+            <Chart data={visibleData} />
+          </div>
         </>
       )}
     </div>
