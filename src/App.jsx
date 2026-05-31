@@ -138,8 +138,35 @@ export default function App() {
           label: obs.dimensions.Time.label,
           value: parseFloat(obs.observation),
         }));
-        setAllData(mapped);
-        setRange([0, mapped.length - 1]);
+
+        // Parse "Mon-YY" into a real date for sorting
+        const monthMap = {
+          Jan: 0,
+          Feb: 1,
+          Mar: 2,
+          Apr: 3,
+          May: 4,
+          Jun: 5,
+          Jul: 6,
+          Aug: 7,
+          Sep: 8,
+          Oct: 9,
+          Nov: 10,
+          Dec: 11,
+        };
+
+        const parseLabel = (label) => {
+          const [mon, yr] = label.split("-");
+          const fullYear = parseInt(yr) + (parseInt(yr) < 50 ? 2000 : 1900);
+          return new Date(fullYear, monthMap[mon] ?? 0);
+        };
+
+        const sorted = mapped.sort(
+          (a, b) => parseLabel(a.label) - parseLabel(b.label),
+        );
+
+        setAllData(sorted);
+        setRange([0, sorted.length - 1]);
       })
       .catch((err) => setError(err.message))
       .finally(() => setLoading(false));
