@@ -1,40 +1,111 @@
 export default function Header() {
+  const navItems = ["Overview", "Economy", "Labour", "About"];
+
   return (
-    <>
-      {/* Nav links */}
-      <nav
+    <header
+      style={{
+        width: "100%",
+        backgroundColor: "#0b1f4b",
+        borderBottom: "4px solid #1d4ed8",
+        boxSizing: "border-box",
+      }}
+    >
+      {/* Top bar */}
+      <div
         style={{
+          backgroundColor: "#071530",
+          padding: "6px 2rem",
+          fontSize: 11,
+          color: "#94a3b8",
+          letterSpacing: "0.04em",
           display: "flex",
-          gap: 4,
-          flexWrap: "wrap",
+          alignItems: "center",
+          gap: 8,
         }}
       >
-        {["Overview", "Economy", "Labour", "About"].map((item) => (
-          <a
-            key={item}
-            href="#"
+        <span
+          style={{
+            display: "inline-block",
+            width: 8,
+            height: 8,
+            borderRadius: "50%",
+            backgroundColor: "#22c55e",
+          }}
+        />
+        OFFICIAL — PUBLIC BETA
+      </div>
+
+      {/* Main header */}
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          padding: "1rem 2rem",
+          maxWidth: 1400,
+          margin: "0 auto",
+          boxSizing: "border-box",
+          flexWrap: "wrap",
+          gap: 12,
+        }}
+      >
+        {/* Title */}
+        <div>
+          <div
             style={{
-              color: "#cbd5e1",
-              fontSize: 13,
-              textDecoration: "none",
-              padding: "6px 14px",
-              borderRadius: 4,
-              transition: "background 0.15s, color 0.15s",
-              letterSpacing: "0.01em",
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.background = "#1e3a6e";
-              e.currentTarget.style.color = "#ffffff";
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.background = "transparent";
-              e.currentTarget.style.color = "#cbd5e1";
+              color: "#ffffff",
+              fontSize: 18,
+              fontWeight: 700,
             }}
           >
-            {item}
-          </a>
-        ))}
-      </nav>
-    </>
+            UK Public Data
+          </div>
+          <div
+            style={{
+              color: "#93c5fd",
+              fontSize: 11,
+              textTransform: "uppercase",
+              letterSpacing: "0.06em",
+            }}
+          >
+            Dashboard
+          </div>
+        </div>
+
+        {/* Nav */}
+        <nav
+          style={{
+            display: "flex",
+            gap: 6,
+            flexWrap: "wrap",
+          }}
+        >
+          {navItems.map((item) => (
+            <a
+              key={item}
+              href="#"
+              style={{
+                color: "#cbd5e1",
+                fontSize: 13,
+                textDecoration: "none",
+                padding: "6px 14px",
+                borderRadius: 6,
+                transition: "all 0.15s",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.background = "#1e3a6e";
+                e.currentTarget.style.color = "#fff";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.background = "transparent";
+                e.currentTarget.style.color = "#cbd5e1";
+              }}
+            >
+              {item}
+            </a>
+          ))}
+        </nav>
+      </div>
+    </header>
   );
 }
