@@ -8,6 +8,8 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
+import Header from "./Header";
+import Footer from "./Footer";
 function useIsMobile() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   useEffect(() => {
@@ -205,82 +207,103 @@ export default function App() {
   return (
     <div
       style={{
-        width: "100%",
-        boxSizing: "border-box",
-        padding: isMobile ? "1rem" : "2rem 3rem",
-        fontFamily: "system-ui, sans-serif",
+        minHeight: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        backgroundColor: "#f8fafc",
       }}
     >
-      <h1 style={{ fontSize: 26, fontWeight: 700, marginBottom: 4 }}>
-        UK Inflation (CPIH)
-      </h1>
-      <p style={{ color: "#6b7280", fontSize: 14, marginBottom: 8 }}>
-        Consumer Prices Index including owner occupiers' housing costs · Source:
-        ONS
-      </p>
-      <p style={{ color: "red", fontSize: 14, marginBottom: 24 }}>
-        shoutout joe
-      </p>
+      <Header />
 
-      {loading && <p>Loading data...</p>}
-      {error && <p style={{ color: "#dc2626" }}>Error: {error}</p>}
+      <main
+        style={{
+          flex: 1,
+          width: "100%",
+          boxSizing: "border-box",
+          padding: isMobile ? "1.5rem 1rem" : "2.5rem 3rem",
+          fontFamily: "system-ui, sans-serif",
+        }}
+      >
+        <h1
+          style={{
+            fontSize: isMobile ? 20 : 26,
+            fontWeight: 700,
+            marginBottom: 4,
+            color: "#0f172a",
+          }}
+        >
+          UK Inflation (CPIH)
+        </h1>
+        <p style={{ color: "#6b7280", fontSize: 14, marginBottom: 8 }}>
+          Consumer Prices Index including owner occupiers' housing costs ·
+          Source: ONS
+        </p>
+        <p style={{ color: "red", fontSize: 14, marginBottom: 24 }}>
+          shoutout joe
+        </p>
 
-      {!loading && !error && (
-        <>
-          <div
-            style={{
-              background: "#dbeafe",
-              border: "1px solid #bfdbfe",
-              borderRadius: 10,
-              padding: "0.75rem 1rem",
-              marginBottom: 24,
-              maxWidth: isMobile ? "100%" : 500,
-              marginLeft: "auto",
-              marginRight: "auto",
-            }}
-          >
-            <p
+        {loading && <p>Loading data...</p>}
+        {error && <p style={{ color: "#dc2626" }}>Error: {error}</p>}
+
+        {!loading && !error && (
+          <>
+            <div
               style={{
-                fontSize: isMobile ? 11 : 12,
-                fontWeight: 600,
-                marginBottom: 2,
-                color: "#374151",
+                background: "#dbeafe",
+                border: "1px solid #bfdbfe",
+                borderRadius: 10,
+                padding: "0.75rem 1rem",
+                marginBottom: 24,
+                maxWidth: isMobile ? "100%" : 500,
+                marginLeft: "auto",
+                marginRight: "auto",
               }}
             >
-              Date range — showing {visibleData.length} of {allData.length}{" "}
-              periods
-            </p>
-            <p
+              <p
+                style={{
+                  fontSize: isMobile ? 11 : 12,
+                  fontWeight: 600,
+                  marginBottom: 2,
+                  color: "#374151",
+                }}
+              >
+                Date range — showing {visibleData.length} of {allData.length}{" "}
+                periods
+              </p>
+              <p
+                style={{
+                  fontSize: isMobile ? 11 : 12,
+                  color: "#6b7280",
+                  marginBottom: 6,
+                }}
+              >
+                {startLabel} → {endLabel}
+              </p>
+              <RangeSlider
+                total={allData.length}
+                range={range}
+                onChange={setRange}
+              />
+            </div>
+
+            <div
               style={{
-                fontSize: isMobile ? 11 : 12,
-                color: "#6b7280",
-                marginBottom: 6,
+                width: "100%",
+                minWidth: 0,
+                background: "#dbeafe",
+                border: "1px solid #bfdbfe",
+                borderRadius: 12,
+                padding: "1.5rem 1rem 1rem",
+                boxSizing: "border-box",
               }}
             >
-              {startLabel} → {endLabel}
-            </p>
-            <RangeSlider
-              total={allData.length}
-              range={range}
-              onChange={setRange}
-            />
-          </div>
+              <Chart data={visibleData} isMobile={isMobile} />
+            </div>
+          </>
+        )}
+      </main>
 
-          <div
-            style={{
-              width: "100%",
-              minWidth: 0,
-              background: "#dbeafe",
-              border: "1px solid #bfdbfe",
-              borderRadius: 12,
-              padding: "1.5rem 1rem 1rem",
-              boxSizing: "border-box",
-            }}
-          >
-            <Chart data={visibleData} isMobile={isMobile} />
-          </div>
-        </>
-      )}
+      <Footer />
     </div>
   );
 }
