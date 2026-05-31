@@ -1,9 +1,8 @@
-// vite.config.js
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-export default defineConfig({
-  base: "/ons-dashboard/",
+export default defineConfig(({ mode }) => ({
+  base: mode === "production" ? "/ons-dashboard/" : "/",
   plugins: [react()],
   server: {
     proxy: {
@@ -14,4 +13,4 @@ export default defineConfig({
       },
     },
   },
-});
+}));

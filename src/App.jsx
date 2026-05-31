@@ -210,7 +210,7 @@ export default function App() {
         minHeight: "100vh",
         display: "flex",
         flexDirection: "column",
-        backgroundColor: "#f8fafc",
+        backgroundColor: "#eef2f7",
       }}
     >
       <Header />
