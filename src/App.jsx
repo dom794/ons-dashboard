@@ -8,51 +8,72 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
+function useIsMobile() {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  useEffect(() => {
+    const handler = () => setIsMobile(window.innerWidth < 768);
+    window.addEventListener("resize", handler);
+    return () => window.removeEventListener("resize", handler);
+  }, []);
+  return isMobile;
+}
 
 const BASE = "https://api.beta.ons.gov.uk/v1";
 
-function Chart({ data }) {
+function Chart({ data, isMobile }) {
   if (!data.length) return null;
 
-  // Only show every 12th label to avoid crowding
-  const tickFormatter = (value, index) => (index % 12 === 0 ? value : "");
+  // On mobile show far fewer labels to avoid crowding
+  const interval = isMobile ? Math.floor(data.length / 6) : 11;
+
+  const tickFormatter = (value, index) => (index % interval === 0 ? value : "");
 
   return (
-    <ResponsiveContainer width="100%" height={500}>
+    <ResponsiveContainer width="100%" height={isMobile ? 380 : 500}>
       <LineChart
         data={data}
-        margin={{ top: 16, right: 40, bottom: 80, left: 60 }}
+        margin={{
+          top: 16,
+          right: isMobile ? 12 : 40,
+          bottom: isMobile ? 60 : 80,
+          left: isMobile ? 12 : 60,
+        }}
       >
         <CartesianGrid strokeDasharray="3 3" strokeOpacity={0.15} />
         <XAxis
           dataKey="label"
           tickFormatter={tickFormatter}
-          tick={{ fontSize: 13 }}
+          tick={{ fontSize: isMobile ? 10 : 13 }}
           angle={-45}
           textAnchor="end"
-          height={80}
+          height={isMobile ? 60 : 80}
           interval={0}
         />
         <YAxis
-          tick={{ fontSize: 13 }}
-          width={60}
-          label={{
-            value: "Index (2015=100)",
-            angle: -90,
-            position: "insideLeft",
-            offset: -10,
-            style: { fontSize: 13, fill: "#6b7280" },
-          }}
+          tick={{ fontSize: isMobile ? 10 : 13 }}
+          width={isMobile ? 36 : 60}
+          label={
+            isMobile
+              ? null
+              : {
+                  value: "Index (2015=100)",
+                  angle: -90,
+                  position: "insideLeft",
+                  offset: -10,
+                  style: { fontSize: 13, fill: "#6b7280" },
+                }
+          }
         />
         <Tooltip
           formatter={(value) => [value.toFixed(2), "CPIH Index"]}
           labelStyle={{ fontWeight: 600 }}
+          contentStyle={{ fontSize: 12 }}
         />
         <Line
           type="monotone"
           dataKey="value"
           dot={false}
-          strokeWidth={2.5}
+          strokeWidth={isMobile ? 1.5 : 2.5}
           stroke="#2563eb"
         />
       </LineChart>
@@ -123,6 +144,7 @@ export default function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [range, setRange] = useState([0, 0]);
+  const isMobile = useIsMobile();
 
   useEffect(() => {
     fetch(
@@ -185,7 +207,7 @@ export default function App() {
       style={{
         width: "100%",
         boxSizing: "border-box",
-        padding: "2rem 3rem",
+        padding: isMobile ? "1rem" : "2rem 3rem",
         fontFamily: "system-ui, sans-serif",
       }}
     >
@@ -210,16 +232,16 @@ export default function App() {
               background: "#dbeafe",
               border: "1px solid #bfdbfe",
               borderRadius: 10,
-              padding: "0.75rem 1.25rem",
+              padding: "0.75rem 1rem",
               marginBottom: 24,
-              maxWidth: 500,
+              maxWidth: isMobile ? "100%" : 500,
               marginLeft: "auto",
               marginRight: "auto",
             }}
           >
             <p
               style={{
-                fontSize: 12,
+                fontSize: isMobile ? 11 : 12,
                 fontWeight: 600,
                 marginBottom: 2,
                 color: "#374151",
@@ -228,7 +250,13 @@ export default function App() {
               Date range — showing {visibleData.length} of {allData.length}{" "}
               periods
             </p>
-            <p style={{ fontSize: 12, color: "#6b7280", marginBottom: 6 }}>
+            <p
+              style={{
+                fontSize: isMobile ? 11 : 12,
+                color: "#6b7280",
+                marginBottom: 6,
+              }}
+            >
               {startLabel} → {endLabel}
             </p>
             <RangeSlider
@@ -249,7 +277,7 @@ export default function App() {
               boxSizing: "border-box",
             }}
           >
-            <Chart data={visibleData} />
+            <Chart data={visibleData} isMobile={isMobile} />
           </div>
         </>
       )}
