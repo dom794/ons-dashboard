@@ -10,17 +10,12 @@ export default function Footer() {
       ],
     },
     {
-      heading: "Topics",
-      links: ["Economy", "Labour market", "Population", "Health"],
+      heading: "Test1",
+      links: ["Test2"],
     },
     {
-      heading: "About",
-      links: [
-        "Methodology",
-        "GitHub repository",
-        "Report an issue",
-        "Changelog",
-      ],
+      heading: "Test2",
+      links: ["Test2"],
     },
   ];
 

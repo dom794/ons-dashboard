@@ -95,14 +95,7 @@ function RangeSlider({ total, range, onChange }) {
           color: "#6b7280",
           marginBottom: 8,
         }}
-      >
-        <span>
-          From: <strong style={{ color: "#111" }}>index {range[0]}</strong>
-        </span>
-        <span>
-          To: <strong style={{ color: "#111" }}>index {range[1]}</strong>
-        </span>
-      </div>
+      ></div>
       <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
           <label style={{ fontSize: 13, width: 36, color: "#6b7280" }}>
@@ -222,6 +215,7 @@ export default function App() {
           boxSizing: "border-box",
           padding: isMobile ? "1.5rem 1rem" : "2.5rem 3rem",
           fontFamily: "system-ui, sans-serif",
+          backgroundColor: "#f8fafc",
         }}
       >
         <h1
@@ -235,8 +229,7 @@ export default function App() {
           UK Inflation (CPIH)
         </h1>
         <p style={{ color: "#6b7280", fontSize: 14, marginBottom: 8 }}>
-          Consumer Prices Index including owner occupiers' housing costs ·
-          Source: ONS
+          Consumer Prices Index including owner occupiers' housing costs
         </p>
         <p style={{ color: "red", fontSize: 14, marginBottom: 24 }}>
           shoutout joe

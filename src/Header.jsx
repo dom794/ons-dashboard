@@ -1,5 +1,5 @@
 export default function Header() {
-  const navItems = ["Overview", "Economy", "Labour", "About"];
+  const navItems = ["Test1", "Test2", "Test3", "Test4"];
 
   return (
     <header
