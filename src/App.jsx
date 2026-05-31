@@ -165,9 +165,12 @@ export default function App() {
       <h1 style={{ fontSize: 26, fontWeight: 700, marginBottom: 4 }}>
         UK Inflation (CPIH)
       </h1>
-      <p style={{ color: "#6b7280", fontSize: 14, marginBottom: 24 }}>
+      <p style={{ color: "#6b7280", fontSize: 14, marginBottom: 8 }}>
         Consumer Prices Index including owner occupiers' housing costs · Source:
         ONS
+      </p>
+      <p style={{ color: "red", fontSize: 14, marginBottom: 24 }}>
+        shoutout joe
       </p>
 
       {loading && <p>Loading data...</p>}
@@ -177,26 +180,28 @@ export default function App() {
         <>
           <div
             style={{
-              background: "#f9fafb",
-              border: "1px solid #e5e7eb",
+              background: "#dbeafe",
+              border: "1px solid #bfdbfe",
               borderRadius: 10,
-              padding: "1rem 1.5rem",
+              padding: "0.75rem 1.25rem",
               marginBottom: 24,
-              maxWidth: 700,
+              maxWidth: 500,
+              marginLeft: "auto",
+              marginRight: "auto",
             }}
           >
             <p
               style={{
-                fontSize: 13,
+                fontSize: 12,
                 fontWeight: 600,
-                marginBottom: 4,
+                marginBottom: 2,
                 color: "#374151",
               }}
             >
               Date range — showing {visibleData.length} of {allData.length}{" "}
               periods
             </p>
-            <p style={{ fontSize: 13, color: "#6b7280", marginBottom: 8 }}>
+            <p style={{ fontSize: 12, color: "#6b7280", marginBottom: 6 }}>
               {startLabel} → {endLabel}
             </p>
             <RangeSlider
@@ -210,8 +215,8 @@ export default function App() {
             style={{
               width: "100%",
               minWidth: 0,
-              background: "#fff",
-              border: "1px solid #e5e7eb",
+              background: "#dbeafe",
+              border: "1px solid #bfdbfe",
               borderRadius: 12,
               padding: "1.5rem 1rem 1rem",
               boxSizing: "border-box",
