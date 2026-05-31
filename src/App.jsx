@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import {
   LineChart,
   Line,
@@ -14,15 +14,35 @@ const BASE = "https://api.beta.ons.gov.uk/v1";
 function Chart({ data }) {
   if (!data.length) return null;
   return (
-    <ResponsiveContainer width="100%" height={320}>
+    <ResponsiveContainer width="100%" height={520}>
       <LineChart
         data={data}
-        margin={{ top: 8, right: 24, bottom: 8, left: 24 }}
+        margin={{ top: 16, right: 32, bottom: 60, left: 48 }}
       >
-        <CartesianGrid strokeDasharray="3 3" strokeOpacity={0.2} />
-        <XAxis dataKey="label" tick={{ fontSize: 11 }} interval={11} />
-        <YAxis tick={{ fontSize: 11 }} />
-        <Tooltip />
+        <CartesianGrid strokeDasharray="3 3" strokeOpacity={0.15} />
+        <XAxis
+          dataKey="label"
+          interval={11}
+          tick={{ fontSize: 12 }}
+          angle={-45}
+          textAnchor="end"
+          height={70}
+        />
+        <YAxis
+          tick={{ fontSize: 12 }}
+          width={48}
+          label={{
+            value: "Index (2015=100)",
+            angle: -90,
+            position: "insideLeft",
+            offset: -8,
+            style: { fontSize: 12, fill: "#6b7280" },
+          }}
+        />
+        <Tooltip
+          formatter={(value) => [value.toFixed(2), "CPIH Index"]}
+          labelStyle={{ fontWeight: 600 }}
+        />
         <Line
           type="monotone"
           dataKey="value"
@@ -35,10 +55,71 @@ function Chart({ data }) {
   );
 }
 
+function RangeSlider({ total, range, onChange }) {
+  if (!total) return null;
+  return (
+    <div style={{ padding: "1rem 0 0.5rem" }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          fontSize: 13,
+          color: "#6b7280",
+          marginBottom: 8,
+        }}
+      >
+        <span>
+          From: <strong style={{ color: "#111" }}>index {range[0]}</strong>
+        </span>
+        <span>
+          To: <strong style={{ color: "#111" }}>index {range[1]}</strong>
+        </span>
+      </div>
+
+      <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+          <label style={{ fontSize: 13, width: 32, color: "#6b7280" }}>
+            Start
+          </label>
+          <input
+            type="range"
+            min={0}
+            max={total - 1}
+            value={range[0]}
+            onChange={(e) => {
+              const val = parseInt(e.target.value);
+              if (val < range[1]) onChange([val, range[1]]);
+            }}
+            style={{ flex: 1, accentColor: "#2563eb" }}
+          />
+        </div>
+
+        <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+          <label style={{ fontSize: 13, width: 32, color: "#6b7280" }}>
+            End
+          </label>
+          <input
+            type="range"
+            min={0}
+            max={total - 1}
+            value={range[1]}
+            onChange={(e) => {
+              const val = parseInt(e.target.value);
+              if (val > range[0]) onChange([range[0], val]);
+            }}
+            style={{ flex: 1, accentColor: "#2563eb" }}
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function App() {
-  const [data, setData] = useState([]);
+  const [allData, setAllData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [range, setRange] = useState([0, 0]);
 
   useEffect(() => {
     fetch(
@@ -54,25 +135,77 @@ export default function App() {
           label: obs.dimensions.Time.label,
           value: parseFloat(obs.observation),
         }));
-        setData(mapped);
+        setAllData(mapped);
+        setRange([0, mapped.length - 1]);
       })
       .catch((err) => setError(err.message))
       .finally(() => setLoading(false));
   }, []);
 
+  // Slice the data based on the range sliders
+  const visibleData = useMemo(
+    () => allData.slice(range[0], range[1] + 1),
+    [allData, range],
+  );
+
+  const startLabel = allData[range[0]]?.label ?? "";
+  const endLabel = allData[range[1]]?.label ?? "";
+
   return (
     <div
       style={{
-        maxWidth: 900,
+        maxWidth: 960,
         margin: "0 auto",
         padding: "2rem",
-        fontFamily: "sans-serif",
+        fontFamily: "system-ui, sans-serif",
       }}
     >
-      <h1>UK Inflation (CPIH)</h1>
-      {loading && <p>Loading...</p>}
-      {error && <p style={{ color: "red" }}>Error: {error}</p>}
-      {!loading && !error && <Chart data={data} />}
+      <h1 style={{ fontSize: 24, fontWeight: 700, marginBottom: 4 }}>
+        UK Inflation (CPIH)
+      </h1>
+      <p style={{ color: "#6b7280", fontSize: 14, marginBottom: 24 }}>
+        Consumer Prices Index including owner occupiers' housing costs · Source:
+        ONS
+      </p>
+
+      {loading && <p>Loading data...</p>}
+      {error && <p style={{ color: "#dc2626" }}>Error: {error}</p>}
+
+      {!loading && !error && (
+        <>
+          <div
+            style={{
+              background: "#f9fafb",
+              border: "1px solid #e5e7eb",
+              borderRadius: 10,
+              padding: "1rem 1.5rem",
+              marginBottom: 24,
+            }}
+          >
+            <p
+              style={{
+                fontSize: 13,
+                fontWeight: 600,
+                marginBottom: 4,
+                color: "#374151",
+              }}
+            >
+              Date range — showing {visibleData.length} of {allData.length}{" "}
+              periods
+            </p>
+            <p style={{ fontSize: 13, color: "#6b7280", marginBottom: 8 }}>
+              {startLabel} → {endLabel}
+            </p>
+            <RangeSlider
+              total={allData.length}
+              range={range}
+              onChange={setRange}
+            />
+          </div>
+
+          <Chart data={visibleData} />
+        </>
+      )}
     </div>
   );
 }
