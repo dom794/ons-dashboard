@@ -17,7 +17,6 @@ export default function Header() {
           alignItems: "center",
           justifyContent: "space-between",
           padding: "0.70rem 1.25rem",
-
           margin: "0 auto",
           boxSizing: "border-box",
           flexWrap: "wrap",
