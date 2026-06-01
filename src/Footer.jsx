@@ -47,7 +47,7 @@ export default function Footer() {
             style={{
               display: "flex",
               alignItems: "center",
-              gap: 10,
+              gap: 17,
               marginBottom: 14,
             }}
           >
@@ -56,7 +56,7 @@ export default function Footer() {
                 width: 32,
                 height: 32,
                 backgroundColor: "#1d4ed8",
-                borderRadius: 5,
+                borderRadius: 4,
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
@@ -125,7 +125,7 @@ export default function Footer() {
                 fontWeight: 700,
                 letterSpacing: "0.08em",
                 textTransform: "uppercase",
-                marginBottom: 14,
+                marginBottom: 4,
               }}
             >
               {col.heading}
@@ -149,7 +149,7 @@ export default function Footer() {
                     href="#"
                     style={{
                       color: "#64748b",
-                      fontSize: 13,
+                      fontSize: 12,
                       textDecoration: "none",
                       transition: "color 0.15s",
                     }}
@@ -173,8 +173,7 @@ export default function Footer() {
       <div
         style={{
           borderTop: "1px solid #0f2847",
-          padding: "1rem 2rem",
-          maxWidth: 1400,
+          padding: "0.5rem 3rem",
           margin: "0 auto",
           boxSizing: "border-box",
           display: "flex",

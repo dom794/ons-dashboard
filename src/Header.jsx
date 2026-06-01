@@ -6,43 +6,18 @@ export default function Header() {
       style={{
         width: "100%",
         backgroundColor: "#0b1f4b",
-        borderBottom: "4px solid #1d4ed8",
+        borderBottom: "3px solid #1d4ed8",
         boxSizing: "border-box",
       }}
     >
-      {/* Top bar */}
-      <div
-        style={{
-          backgroundColor: "#071530",
-          padding: "6px 2rem",
-          fontSize: 11,
-          color: "#94a3b8",
-          letterSpacing: "0.04em",
-          display: "flex",
-          alignItems: "center",
-          gap: 8,
-        }}
-      >
-        <span
-          style={{
-            display: "inline-block",
-            width: 8,
-            height: 8,
-            borderRadius: "50%",
-            backgroundColor: "#22c55e",
-          }}
-        />
-        OFFICIAL — PUBLIC BETA
-      </div>
-
       {/* Main header */}
       <div
         style={{
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
-          padding: "1rem 2rem",
-          maxWidth: 1400,
+          padding: "0.70rem 1.25rem",
+
           margin: "0 auto",
           boxSizing: "border-box",
           flexWrap: "wrap",
