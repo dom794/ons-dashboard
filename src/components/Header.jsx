@@ -1,9 +1,11 @@
 import styles from "./Header.module.css";
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 export default function Header() 
 {
+  const location = useLocation();
+  const isHomeActive = !location.pathname.startsWith("/about");
 
   return (
     <header className={styles.header}>
@@ -17,8 +19,7 @@ export default function Header()
           </div>
         </div>
         <nav className={styles.nav}>
-          <NavLink to="/" className={styles.navItem}>Home</NavLink>
-          <NavLink to="/datasets" className={styles.navItem}>Datasets</NavLink>
+          <NavLink to="/datasets" className={styles.navItem}>Home</NavLink>
           <NavLink to="/about" className={styles.navItem}>About</NavLink>
         </nav>
       </div>

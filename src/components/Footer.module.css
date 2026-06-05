@@ -1,29 +1,32 @@
-.footer {
+.footer 
+{
   width: 100%;
   background-color: #071530;
   border-top: 4px solid #1d4ed8;
-  margin-top: 64px;
   box-sizing: border-box;
+  padding: 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
-.mainContent {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 3rem 2rem 2rem;
+.mainContent 
+{
+  place-self: center;
   box-sizing: border-box;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 40px;
+  max-width: 400px;
+  width: 100%;
 }
 
-.brandContainer {
+.brandContainer 
+{
   display: flex;
   align-items: center;
-  gap: 17px;
-  margin-bottom: 14px;
+  gap: 15px;
+  margin-bottom: 20px;
 }
 
-.logoIcon {
+.logoIcon 
+{
   width: 32px;
   height: 32px;
   background-color: #1d4ed8;
@@ -34,62 +37,35 @@
   flex-shrink: 0;
 }
 
-.brandName {
+.brandName 
+{
   color: #ffffff;
   font-size: 14px;
   font-weight: 700;
 }
 
-.brandDescription {
+.brandDescription 
+{
   color: #64748b;
   font-size: 12px;
   line-height: 1.7;
   margin: 0;
+  text-align: left;
 }
 
-.columnHeading {
-  color: #94a3b8;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  margin-bottom: 4px;
-}
-
-.linkList {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.listItem {
-  margin-bottom: 8px;
-}
-
-.link {
-  color: #64748b;
-  font-size: 12px;
-  text-decoration: none;
-  transition: color 0.15s;
-}
-
-.link:hover {
-  color: #93c5fd;
-}
-
-.bottomBar {
-  border-top: 1px solid #0f2847;
-  padding: 0.5rem 3rem;
-  margin: 0 auto;
-  box-sizing: border-box;
+.bottomTextContainer
+{
+  margin-top: 20px;
   display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: left;
   justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 8px;
 }
 
-.bottomText {
+.bottomText 
+{
+  display: flex;
   color: #334155;
   font-size: 12px;
 }
