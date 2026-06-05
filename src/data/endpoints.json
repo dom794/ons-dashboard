@@ -1,0 +1,1350 @@
+[
+  {
+    "id": "wellbeing-quarterly",
+    "name": "Quarterly personal well-being estimates"
+  },
+  {
+    "id": "wellbeing-local-authority",
+    "name": "Personal well-being estimates by local authority"
+  },
+  {
+    "id": "weekly-deaths-region",
+    "name": "Deaths registered weekly in England and Wales by region"
+  },
+  {
+    "id": "weekly-deaths-local-authority",
+    "name": "Death registrations and occurrences by local authority and place of death"
+  },
+  {
+    "id": "weekly-deaths-health-board",
+    "name": "Death registrations and occurrences by health board and place of death"
+  },
+  {
+    "id": "weekly-deaths-age-sex",
+    "name": "Deaths registered weekly in England and Wales by age and sex"
+  },
+  {
+    "id": "uk-spending-on-cards",
+    "name": "UK spending on credit and debit cards"
+  },
+  {
+    "id": "uk-business-by-enterprises-and-local-units",
+    "name": "UK Business: Activity, Size and Location"
+  },
+  {
+    "id": "traffic-camera-activity",
+    "name": "Traffic Camera Activity"
+  },
+  {
+    "id": "trade",
+    "name": "Trade in goods: country by commodity"
+  },
+  {
+    "id": "tax-benefits-statistics",
+    "name": "Effects of Taxes and Benefits on Household Income"
+  },
+  {
+    "id": "suicides-in-the-uk",
+    "name": "Suicide registrations in England and Wales by local authority"
+  },
+  {
+    "id": "sexual-orientation-by-region",
+    "name": "Sexual orientation by English regions and UK countries"
+  },
+  {
+    "id": "sexual-orientation-by-age-and-sex",
+    "name": "Sexual orientation by age and sex"
+  },
+  {
+    "id": "retail-sales-index-large-and-small-businesses",
+    "name": "Retail sales index - large and small businesses"
+  },
+  {
+    "id": "retail-sales-index-all-businesses",
+    "name": "Retail sales index - all businesses"
+  },
+  {
+    "id": "retail-sales-index",
+    "name": "Retail sales index"
+  },
+  {
+    "id": "regional-gdp-by-year",
+    "name": "Annual GDP for England, Wales and the English regions"
+  },
+  {
+    "id": "regional-gdp-by-quarter",
+    "name": "Quarterly GDP for England, Wales and the English regions"
+  },
+  {
+    "id": "projections-older-people-sex-ratios",
+    "name": "Local authority ageing statistics, projected sex ratios for older people"
+  },
+  {
+    "id": "projections-older-people-in-single-households",
+    "name": "Local authority ageing statistics, household projections for older people"
+  },
+  {
+    "id": "output-in-the-construction-industry",
+    "name": "Output in the construction industry"
+  },
+  {
+    "id": "online-job-advert-estimates",
+    "name": "Faster Indicators - Online Job Advert Estimates"
+  },
+  {
+    "id": "older-people-sex-ratios",
+    "name": "Local authority ageing statistics, sex ratios for people aged 65 and over and 85 and over"
+  },
+  {
+    "id": "older-people-net-internal-migration",
+    "name": "Local authority ageing statistics, net internal migration people aged 65 and over and 85 and over"
+  },
+  {
+    "id": "older-people-economic-activity",
+    "name": "Local authority ageing statistics, older people economic activity"
+  },
+  {
+    "id": "mid-year-pop-est",
+    "name": "Population Estimates for UK, England and Wales, Scotland and Northern Ireland"
+  },
+  {
+    "id": "life-expectancy-by-local-authority",
+    "name": "Life Expectancy by Local Authority"
+  },
+  {
+    "id": "labour-market",
+    "name": "UK Labour Market"
+  },
+  {
+    "id": "index-private-housing-rental-prices",
+    "name": "Index of Private Housing Rental Prices"
+  },
+  {
+    "id": "house-prices-local-authority",
+    "name": "House price statistics for small areas in England and Wales"
+  },
+  {
+    "id": "health-accounts",
+    "name": "Expenditure on healthcare: UK Health Accounts"
+  },
+  {
+    "id": "gva-by-industry-by-local-authority",
+    "name": "GVA by industry by local authority"
+  },
+  {
+    "id": "generational-income",
+    "name": "Generational income: The effects of taxes and benefits"
+  },
+  {
+    "id": "gdp-to-four-decimal-places",
+    "name": "GDP monthly estimate (incorporating the Index of Services and Index of Production)"
+  },
+  {
+    "id": "gdp-by-local-authority",
+    "name": "GDP by local authority"
+  },
+  {
+    "id": "faster-indicators-shipping-data",
+    "name": "Coronavirus and the latest indicators for the UK economy and society: Shipping indicators"
+  },
+  {
+    "id": "cpih01",
+    "name": "Consumer Prices Index including owner occupiers' housing costs (CPIH)"
+  },
+  {
+    "id": "childrens-wellbeing",
+    "name": "Children's Well-being Measures"
+  },
+  {
+    "id": "ashe-tables-9-and-10",
+    "name": "Earnings and hours worked, place of work and place of residence by Parliamentary constituency: ASHE Tables 9 and 10"
+  },
+  {
+    "id": "ashe-tables-7-and-8",
+    "name": "Earnings and hours worked, place of work and residence by local authority: ASHE Tables 7 and 8 "
+  },
+  {
+    "id": "ashe-tables-3",
+    "name": "Earnings and hours worked, region by occupation by two-digit SOC: ASHE Table 3"
+  },
+  {
+    "id": "ashe-tables-27-and-28",
+    "name": "Earnings and hours worked, place of work and place of residence by local enterprise partnerships: ASHE Tables 27 and 28"
+  },
+  {
+    "id": "ashe-tables-26",
+    "name": "Earnings and hours worked, care workers: ASHE Table 26"
+  },
+  {
+    "id": "ashe-tables-25",
+    "name": "Earnings and hours worked, UK region by public and private sector: ASHE Table 25"
+  },
+  {
+    "id": "ashe-tables-20",
+    "name": "Earnings and hours worked, age group by occupation by two-digit SOC: ASHE Table 20"
+  },
+  {
+    "id": "ashe-tables-11-and-12",
+    "name": "Earnings and Hours Worked, Work and Residence-Based Travel to Work Area: ASHE Tables 11 and 12"
+  },
+  {
+    "id": "ashe-table-5",
+    "name": "Earnings and Hours Worked, UK Region by Industry by Two-Digit SIC: ASHE Table 5"
+  },
+  {
+    "id": "ageing-population-projections",
+    "name": "Local authority ageing statistics, population projections for older people"
+  },
+  {
+    "id": "ageing-population-estimates",
+    "name": "Local authority ageing statistics, based on annual mid-year population estimates"
+  },
+  {
+    "id": "TS079",
+    "name": "Sexual orientation (detailed)"
+  },
+  {
+    "id": "TS078",
+    "name": "Gender identity"
+  },
+  {
+    "id": "TS077",
+    "name": "Sexual orientation"
+  },
+  {
+    "id": "TS076",
+    "name": "Welsh language skills (speaking) by single year of age"
+  },
+  {
+    "id": "TS075",
+    "name": "Multi religion households"
+  },
+  {
+    "id": "TS074",
+    "name": "Household Reference Person indicator of previous service in UK armed forces"
+  },
+  {
+    "id": "TS073",
+    "name": "Population who have previously served in UK armed forces in communal establishments and in households"
+  },
+  {
+    "id": "TS072",
+    "name": "Number of people in household who have previously served in UK armed forces"
+  },
+  {
+    "id": "TS071",
+    "name": "Previously served in the UK armed forces"
+  },
+  {
+    "id": "TS070",
+    "name": "Gender identity (detailed)"
+  },
+  {
+    "id": "TS068",
+    "name": "Schoolchildren and full-time students"
+  },
+  {
+    "id": "TS067",
+    "name": "Highest level of qualification"
+  },
+  {
+    "id": "TS066",
+    "name": "Economic activity status"
+  },
+  {
+    "id": "TS065",
+    "name": "Employment history"
+  },
+  {
+    "id": "TS064",
+    "name": "Occupation - minor groups"
+  },
+  {
+    "id": "TS063",
+    "name": "Occupation"
+  },
+  {
+    "id": "TS062",
+    "name": "NS-SEC"
+  },
+  {
+    "id": "TS061",
+    "name": "Method used to travel to work"
+  },
+  {
+    "id": "TS060",
+    "name": "Industry"
+  },
+  {
+    "id": "TS059",
+    "name": "Hours worked"
+  },
+  {
+    "id": "TS058",
+    "name": "Distance travelled to work"
+  },
+  {
+    "id": "TS056",
+    "name": "Second address indicator"
+  },
+  {
+    "id": "TS055",
+    "name": "Purpose of second address"
+  },
+  {
+    "id": "TS054",
+    "name": "Tenure"
+  },
+  {
+    "id": "TS053",
+    "name": "Occupancy rating for rooms"
+  },
+  {
+    "id": "TS052",
+    "name": "Occupancy rating for bedrooms"
+  },
+  {
+    "id": "TS051",
+    "name": "Number of rooms"
+  },
+  {
+    "id": "TS050",
+    "name": "Number of bedrooms"
+  },
+  {
+    "id": "TS048",
+    "name": "Communal establishment management and type"
+  },
+  {
+    "id": "TS047",
+    "name": "Communal establishment residents by age and sex"
+  },
+  {
+    "id": "TS046",
+    "name": "Central heating"
+  },
+  {
+    "id": "TS045",
+    "name": "Car or van availability"
+  },
+  {
+    "id": "TS044",
+    "name": "Accommodation type"
+  },
+  {
+    "id": "TS041",
+    "name": "Number of Households"
+  },
+  {
+    "id": "TS040",
+    "name": "Number of disabled people in the household"
+  },
+  {
+    "id": "TS039ASP",
+    "name": "Provision of unpaid care, age-standardised proportions"
+  },
+  {
+    "id": "TS039",
+    "name": "Provision of unpaid care"
+  },
+  {
+    "id": "TS038ASP",
+    "name": "Disability, age-standardised proportions"
+  },
+  {
+    "id": "TS038",
+    "name": "Disability"
+  },
+  {
+    "id": "TS037ASP",
+    "name": "General health, age-standardised proportions"
+  },
+  {
+    "id": "TS037",
+    "name": "General health"
+  },
+  {
+    "id": "TS036",
+    "name": "Welsh language skills (understanding)"
+  },
+  {
+    "id": "TS035",
+    "name": "Welsh language skills (reading)"
+  },
+  {
+    "id": "TS034",
+    "name": "Welsh language skills (writing)"
+  },
+  {
+    "id": "TS033",
+    "name": "Welsh language skills (speaking)"
+  },
+  {
+    "id": "TS032",
+    "name": "Welsh language skills (detailed)"
+  },
+  {
+    "id": "TS031",
+    "name": "Religion (detailed)"
+  },
+  {
+    "id": "TS030",
+    "name": "Religion"
+  },
+  {
+    "id": "TS029",
+    "name": "Proficiency in English"
+  },
+  {
+    "id": "TS028",
+    "name": "National identity (detailed)"
+  },
+  {
+    "id": "TS027",
+    "name": "National identity - UK"
+  },
+  {
+    "id": "TS026",
+    "name": "Multiple main languages in household"
+  },
+  {
+    "id": "TS025",
+    "name": "Household language"
+  },
+  {
+    "id": "TS024",
+    "name": "Main language (detailed)"
+  },
+  {
+    "id": "TS023",
+    "name": "Multiple ethnic group"
+  },
+  {
+    "id": "TS022",
+    "name": "Ethnic group (detailed)"
+  },
+  {
+    "id": "TS021",
+    "name": "Ethnic group"
+  },
+  {
+    "id": "TS020",
+    "name": "Number of non-UK short-term residents by sex"
+  },
+  {
+    "id": "TS019",
+    "name": "Migrant Indicator"
+  },
+  {
+    "id": "TS018",
+    "name": "Age of arrival in the UK"
+  },
+  {
+    "id": "TS017",
+    "name": "Household size"
+  },
+  {
+    "id": "TS016",
+    "name": "Length of residence"
+  },
+  {
+    "id": "TS015",
+    "name": "Year of arrival in UK"
+  },
+  {
+    "id": "TS013",
+    "name": "Passports held (detailed)"
+  },
+  {
+    "id": "TS012",
+    "name": "Country of birth (detailed)"
+  },
+  {
+    "id": "TS011",
+    "name": "Households by deprivation dimensions"
+  },
+  {
+    "id": "TS010",
+    "name": "Living arrangements"
+  },
+  {
+    "id": "TS009",
+    "name": "Sex by single year of age"
+  },
+  {
+    "id": "TS008",
+    "name": "Sex"
+  },
+  {
+    "id": "TS007",
+    "name": "Age by single year"
+  },
+  {
+    "id": "TS006",
+    "name": "Population density"
+  },
+  {
+    "id": "TS005",
+    "name": "Passports held"
+  },
+  {
+    "id": "TS004",
+    "name": "Country of birth"
+  },
+  {
+    "id": "TS003",
+    "name": "Household composition"
+  },
+  {
+    "id": "TS002",
+    "name": "Legal partnership status"
+  },
+  {
+    "id": "TS001",
+    "name": "Number of usual residents in households and communal establishments"
+  },
+  {
+    "id": "ST013",
+    "name": "Number of non-UK born short-term residents by sex by single year of age"
+  },
+  {
+    "id": "ST012",
+    "name": "Number of non-UK born short-term residents by NS-SEC"
+  },
+  {
+    "id": "ST011",
+    "name": "Number of non-UK born short-term residents by occupation"
+  },
+  {
+    "id": "ST010",
+    "name": "Number of non-UK born short-term residents by industry"
+  },
+  {
+    "id": "ST009",
+    "name": "Number of non-UK born short-term residents by economic activity"
+  },
+  {
+    "id": "ST008",
+    "name": "Number of non-UK born short-term residents in household spaces by tenure"
+  },
+  {
+    "id": "ST007",
+    "name": "Number of non-UK born short-term residents by general health"
+  },
+  {
+    "id": "ST006",
+    "name": "Number of non-UK born short-term residents by passports held (detailed)"
+  },
+  {
+    "id": "ST005",
+    "name": "Number of non-UK born short-term residents by main language"
+  },
+  {
+    "id": "ST004",
+    "name": "Number of non-UK born short-term residents by country of birth"
+  },
+  {
+    "id": "ST003",
+    "name": "Number of non-UK born short-term residents by ethnicity"
+  },
+  {
+    "id": "ST002",
+    "name": "Number of non-UK born short-term residents by sex by age"
+  },
+  {
+    "id": "ST001",
+    "name": "Number of non-UK born short-term residents by residence type"
+  },
+  {
+    "id": "RM205",
+    "name": "Dwelling type"
+  },
+  {
+    "id": "RM204",
+    "name": "Number of Dwellings"
+  },
+  {
+    "id": "RM203",
+    "name": "Legal partnership status by sex by age - Communal establishment residents"
+  },
+  {
+    "id": "RM202",
+    "name": "Household size by number of rooms"
+  },
+  {
+    "id": "RM201",
+    "name": "Tenure by age - Household Reference Persons"
+  },
+  {
+    "id": "RM200",
+    "name": "Sex by single year of age (detailed)"
+  },
+  {
+    "id": "RM198",
+    "name": "Number of multi-generational households by bedroom occupancy ratings"
+  },
+  {
+    "id": "RM197",
+    "name": "Number of multi-generational households by household tenure"
+  },
+  {
+    "id": "RM196",
+    "name": "Communal establishment management and type- communal establishments"
+  },
+  {
+    "id": "RM195",
+    "name": "Number of households in houses in multiple occupation (HMO) by type of occupancy rating (bedrooms)"
+  },
+  {
+    "id": "RM194",
+    "name": "Number of households in houses in multiple occupation (HMO) by type of central heating in household"
+  },
+  {
+    "id": "RM193",
+    "name": "Number of households in houses in multiple occupation (HMO) by accommodation type"
+  },
+  {
+    "id": "RM192",
+    "name": "Number of dwellings that are houses in multiple occupation (HMO)"
+  },
+  {
+    "id": "RM191",
+    "name": "Gender identity by unpaid carer status"
+  },
+  {
+    "id": "RM190",
+    "name": "Sexual orientation by tenure"
+  },
+  {
+    "id": "RM189",
+    "name": "Sexual orientation by sex"
+  },
+  {
+    "id": "RM188",
+    "name": "Sexual orientation by religion"
+  },
+  {
+    "id": "RM187",
+    "name": "Sexual orientation by occupancy rating (rooms)"
+  },
+  {
+    "id": "RM186",
+    "name": "Sexual orientation by occupancy rating (bedrooms)"
+  },
+  {
+    "id": "RM185",
+    "name": "Sexual orientation by NS-SEC"
+  },
+  {
+    "id": "RM184",
+    "name": "Sexual orientation by industry"
+  },
+  {
+    "id": "RM183",
+    "name": "Sexual orientation by hours worked"
+  },
+  {
+    "id": "RM182",
+    "name": "Sexual orientation by highest qualification held"
+  },
+  {
+    "id": "RM181",
+    "name": "Sexual orientation by household composition"
+  },
+  {
+    "id": "RM180",
+    "name": "Sexual orientation by dwelling type"
+  },
+  {
+    "id": "RM179",
+    "name": "Sexual orientation by type of central heating in household"
+  },
+  {
+    "id": "RM178",
+    "name": "Sexual orientation by unpaid carer status"
+  },
+  {
+    "id": "RM177",
+    "name": "Sexual orientation by age"
+  },
+  {
+    "id": "RM176",
+    "name": "Gender identity by tenure"
+  },
+  {
+    "id": "RM175",
+    "name": "Gender identity by sexual orientation"
+  },
+  {
+    "id": "RM174",
+    "name": "Gender identity by sex"
+  },
+  {
+    "id": "RM173",
+    "name": "Gender identity by religion"
+  },
+  {
+    "id": "RM172",
+    "name": "Gender identity by occupancy rating (rooms)"
+  },
+  {
+    "id": "RM171",
+    "name": "Gender identity by occupancy rating (bedrooms)"
+  },
+  {
+    "id": "RM170",
+    "name": "Gender identity by NS-SEC"
+  },
+  {
+    "id": "RM169",
+    "name": "Gender identity by industry"
+  },
+  {
+    "id": "RM168",
+    "name": "Gender identity by hours worked"
+  },
+  {
+    "id": "RM167",
+    "name": "Gender identity by highest qualification held"
+  },
+  {
+    "id": "RM166",
+    "name": "Gender identity by household composition"
+  },
+  {
+    "id": "RM165",
+    "name": "Gender identity by dwelling type"
+  },
+  {
+    "id": "RM164",
+    "name": "Gender identity by type of central heating in household"
+  },
+  {
+    "id": "RM163",
+    "name": "Gender identity by age by sex"
+  },
+  {
+    "id": "RM162",
+    "name": "Welsh language skills by tenure - Household Reference Persons"
+  },
+  {
+    "id": "RM161",
+    "name": "Welsh language skills by sex by age"
+  },
+  {
+    "id": "RM160",
+    "name": "Welsh language skills by country of birth"
+  },
+  {
+    "id": "RM158",
+    "name": "Number of people who can speak Welsh by household size"
+  },
+  {
+    "id": "RM157",
+    "name": "Disability by ability to speak Welsh by age"
+  },
+  {
+    "id": "RM156",
+    "name": "General health by ability to speak Welsh by age"
+  },
+  {
+    "id": "RM155",
+    "name": "Family type by parents' ability to speak Welsh by age and ability to speak Welsh of dependent child"
+  },
+  {
+    "id": "RM154",
+    "name": "Ability to speak Welsh by employment history"
+  },
+  {
+    "id": "RM153",
+    "name": "Ability to speak Welsh by tenure - Household Reference Persons"
+  },
+  {
+    "id": "RM152",
+    "name": "Ability to speak Welsh by occupation"
+  },
+  {
+    "id": "RM151",
+    "name": "Ability to speak Welsh by NS-SEC"
+  },
+  {
+    "id": "RM150",
+    "name": "Ability to speak Welsh by national identity by age"
+  },
+  {
+    "id": "RM149",
+    "name": "Ability to speak Welsh by industry"
+  },
+  {
+    "id": "RM148",
+    "name": "Year last worked by age"
+  },
+  {
+    "id": "RM147",
+    "name": "Veterans by age"
+  },
+  {
+    "id": "RM146",
+    "name": "Veterans by occupation"
+  },
+  {
+    "id": "RM145",
+    "name": "Veterans by general health"
+  },
+  {
+    "id": "RM144",
+    "name": "Veterans by economic activity status"
+  },
+  {
+    "id": "RM143",
+    "name": "Veterans by disability"
+  },
+  {
+    "id": "RM142",
+    "name": "Veteran households by tenure"
+  },
+  {
+    "id": "RM141",
+    "name": "Type of central heating in household by occupancy rating (rooms) by age"
+  },
+  {
+    "id": "RM140",
+    "name": "Tenure by occupation - Household Reference Persons"
+  },
+  {
+    "id": "RM139",
+    "name": "Tenure by number of people per room in household by accommodation type"
+  },
+  {
+    "id": "RM138",
+    "name": "Tenure by NS-SEC - Household Reference Persons"
+  },
+  {
+    "id": "RM137",
+    "name": "Tenure by number of rooms"
+  },
+  {
+    "id": "RM136",
+    "name": "Tenure by household size by number of bedrooms"
+  },
+  {
+    "id": "RM135",
+    "name": "Tenure by household composition"
+  },
+  {
+    "id": "RM134",
+    "name": "Tenure by ethnic group - Household Reference Persons"
+  },
+  {
+    "id": "RM133",
+    "name": "Tenure by economic activity status - Household Reference Persons"
+  },
+  {
+    "id": "RM132",
+    "name": "Tenure by dependent children in household"
+  },
+  {
+    "id": "RM131",
+    "name": "Tenure by car or van availability by number of usual residents aged 17 or over in household"
+  },
+  {
+    "id": "RM130",
+    "name": "Tenure by car or van availability by ethnic group of Household Reference Person"
+  },
+  {
+    "id": "RM129",
+    "name": "Student accommodation by age"
+  },
+  {
+    "id": "RM128",
+    "name": "Sexual orientation by occupation"
+  },
+  {
+    "id": "RM127",
+    "name": "Sexual orientation by legal partnership status"
+  },
+  {
+    "id": "RM126",
+    "name": "Sexual orientation by general health"
+  },
+  {
+    "id": "RM125",
+    "name": "Sexual orientation by ethnic group"
+  },
+  {
+    "id": "RM124",
+    "name": "Sexual orientation by economic activity status"
+  },
+  {
+    "id": "RM123",
+    "name": "Sexual orientation by disability"
+  },
+  {
+    "id": "RM122",
+    "name": "Sexual orientation by age and sex"
+  },
+  {
+    "id": "RM121",
+    "name": "Sex by age"
+  },
+  {
+    "id": "RM120",
+    "name": "Residence type by sex by age"
+  },
+  {
+    "id": "RM119",
+    "name": "Residence type by age"
+  },
+  {
+    "id": "RM118",
+    "name": "Religion by age"
+  },
+  {
+    "id": "RM117",
+    "name": "Religion by accommodation type"
+  },
+  {
+    "id": "RM116",
+    "name": "Provision of unpaid care by households with people with a disability by economic activity status"
+  },
+  {
+    "id": "RM115",
+    "name": "Provision of unpaid care by general health by age"
+  },
+  {
+    "id": "RM114",
+    "name": "Provision of unpaid care by general health by households with people who have a disability"
+  },
+  {
+    "id": "RM113",
+    "name": "Provision of unpaid care by age"
+  },
+  {
+    "id": "RM112",
+    "name": "Proficiency in English by economic activity status"
+  },
+  {
+    "id": "RM111",
+    "name": "Proficiency in English by age"
+  },
+  {
+    "id": "RM110",
+    "name": "Passports held by year of arrival in the UK"
+  },
+  {
+    "id": "RM109",
+    "name": "Passports held by age"
+  },
+  {
+    "id": "RM108",
+    "name": "Passports held by country of birth"
+  },
+  {
+    "id": "RM107",
+    "name": "Occupation by sex"
+  },
+  {
+    "id": "RM106",
+    "name": "Occupation by religion"
+  },
+  {
+    "id": "RM105",
+    "name": "Occupation by hours worked"
+  },
+  {
+    "id": "RM104",
+    "name": "Occupation by ethnic group"
+  },
+  {
+    "id": "RM103",
+    "name": "Occupation by economic activity status"
+  },
+  {
+    "id": "RM102",
+    "name": "Occupation by age"
+  },
+  {
+    "id": "RM101",
+    "name": "Occupancy rating (rooms) by tenure"
+  },
+  {
+    "id": "RM100",
+    "name": "Occupancy rating (rooms) by household composition"
+  },
+  {
+    "id": "RM099",
+    "name": "Occupancy rating (bedrooms) by tenure"
+  },
+  {
+    "id": "RM098",
+    "name": "Occupancy rating (bedrooms) by household composition"
+  },
+  {
+    "id": "RM097",
+    "name": "Occupancy rating (bedrooms) by ethnic group of Household Reference Person"
+  },
+  {
+    "id": "RM096",
+    "name": "Number of bedrooms by tenure by age of dependent children"
+  },
+  {
+    "id": "RM095",
+    "name": "Number of bedrooms by accommodation type by age of dependent children"
+  },
+  {
+    "id": "RM094",
+    "name": "NS-SEC of Household Reference Person by household composition"
+  },
+  {
+    "id": "RM093",
+    "name": "NS-SEC by sex"
+  },
+  {
+    "id": "RM092",
+    "name": "NS-SEC by religion"
+  },
+  {
+    "id": "RM091",
+    "name": "NS-SEC by economic activity status"
+  },
+  {
+    "id": "RM090",
+    "name": "NS-SEC by age"
+  },
+  {
+    "id": "RM089",
+    "name": "National Identity by sex by age"
+  },
+  {
+    "id": "RM088",
+    "name": "National identity by religion"
+  },
+  {
+    "id": "RM087",
+    "name": "National identity by ethnic group"
+  },
+  {
+    "id": "RM086",
+    "name": "National identity by age"
+  },
+  {
+    "id": "RM085",
+    "name": "Multi-religion households by tenure"
+  },
+  {
+    "id": "RM084",
+    "name": "Multi-religion households by occupation of Household Reference Person"
+  },
+  {
+    "id": "RM083",
+    "name": "Multi-religion households by ethnic group of Household Reference Person"
+  },
+  {
+    "id": "RM082",
+    "name": "Multi-language households by tenure"
+  },
+  {
+    "id": "RM081",
+    "name": "Multi-language households by occupation of Household Reference Person"
+  },
+  {
+    "id": "RM080",
+    "name": "Multi-language households by ethnic group of Household Reference Person"
+  },
+  {
+    "id": "RM079",
+    "name": "Method used to travel to work by occupation"
+  },
+  {
+    "id": "RM078",
+    "name": "Method used to travel to work by industry"
+  },
+  {
+    "id": "RM077",
+    "name": "Method used to travel to work by distance travelled to work"
+  },
+  {
+    "id": "RM076",
+    "name": "Method used to travel to work by car or van availability"
+  },
+  {
+    "id": "RM075",
+    "name": "Method used to travel to work by age"
+  },
+  {
+    "id": "RM074",
+    "name": "Legal partnership status by sex by age"
+  },
+  {
+    "id": "RM073",
+    "name": "Disability by sex by age"
+  },
+  {
+    "id": "RM072",
+    "name": "Disability by religion by sex"
+  },
+  {
+    "id": "RM071",
+    "name": "Disability by provision of unpaid care by sex"
+  },
+  {
+    "id": "RM070",
+    "name": "Disability by NS-SEC by age"
+  },
+  {
+    "id": "RM069",
+    "name": "Disability by general health by age"
+  },
+  {
+    "id": "RM068",
+    "name": "Disability by car or van availability"
+  },
+  {
+    "id": "RM067",
+    "name": "Living arrangements by sex by age"
+  },
+  {
+    "id": "RM066",
+    "name": "Living arrangements by age - Household Reference Person"
+  },
+  {
+    "id": "RM065",
+    "name": "Industry by sex"
+  },
+  {
+    "id": "RM064",
+    "name": "Industry by ethnic group"
+  },
+  {
+    "id": "RM063",
+    "name": "Industry by economic activity status"
+  },
+  {
+    "id": "RM062",
+    "name": "Industry by age"
+  },
+  {
+    "id": "RM061",
+    "name": "Household composition by religion of Household Reference Person"
+  },
+  {
+    "id": "RM060",
+    "name": "Household composition by number of people in household with a disability"
+  },
+  {
+    "id": "RM059",
+    "name": "Household composition by number of bedrooms"
+  },
+  {
+    "id": "RM058",
+    "name": "Household composition by ethnic group of Household Reference Person"
+  },
+  {
+    "id": "RM057",
+    "name": "Household composition by age"
+  },
+  {
+    "id": "RM056",
+    "name": "Hours worked by sex by age"
+  },
+  {
+    "id": "RM055",
+    "name": "Highest level of qualification by sex"
+  },
+  {
+    "id": "RM054",
+    "name": "Highest level of qualification by religion"
+  },
+  {
+    "id": "RM053",
+    "name": "Highest level of qualification by main language"
+  },
+  {
+    "id": "RM052",
+    "name": "Highest level of qualification by disability"
+  },
+  {
+    "id": "RM051",
+    "name": "Highest level of qualification by household composition"
+  },
+  {
+    "id": "RM049",
+    "name": "Highest level of qualification by ethnic group"
+  },
+  {
+    "id": "RM048",
+    "name": "Highest level of qualification by economic activity status"
+  },
+  {
+    "id": "RM047",
+    "name": "Highest level of qualification by country of birth"
+  },
+  {
+    "id": "RM046",
+    "name": "General health by tenure by age"
+  },
+  {
+    "id": "RM045",
+    "name": "General health by religion by age"
+  },
+  {
+    "id": "RM044",
+    "name": "General health by NS-SEC"
+  },
+  {
+    "id": "RM043",
+    "name": "General health by ethnic group by age"
+  },
+  {
+    "id": "RM042",
+    "name": "General health by car or van availability by sex"
+  },
+  {
+    "id": "RM041",
+    "name": "Gender identity by occupation"
+  },
+  {
+    "id": "RM040",
+    "name": "Gender identity by legal partnership status"
+  },
+  {
+    "id": "RM039",
+    "name": "Gender identity by general health"
+  },
+  {
+    "id": "RM038",
+    "name": "Gender identity by ethnic group"
+  },
+  {
+    "id": "RM037",
+    "name": "Gender identity by economic activity status"
+  },
+  {
+    "id": "RM036",
+    "name": "Gender identity by disability"
+  },
+  {
+    "id": "RM035",
+    "name": "Gender identity by age"
+  },
+  {
+    "id": "RM034",
+    "name": "Family status by number of parents working by economic activity status"
+  },
+  {
+    "id": "RM033",
+    "name": "Ethnic group of dependent child by sex"
+  },
+  {
+    "id": "RM032",
+    "name": "Ethnic group by sex by age"
+  },
+  {
+    "id": "RM031",
+    "name": "Ethnic group by religion"
+  },
+  {
+    "id": "RM030",
+    "name": "Ethnic group by provision of unpaid care by general health"
+  },
+  {
+    "id": "RM029",
+    "name": "Ethnic group by occupancy rating (rooms)"
+  },
+  {
+    "id": "RM028",
+    "name": "Ethnic group by occupancy rating (bedrooms)"
+  },
+  {
+    "id": "RM027",
+    "name": "Ethnic group by age of arrival in the UK"
+  },
+  {
+    "id": "RM026",
+    "name": "Ethnic group by accommodation type"
+  },
+  {
+    "id": "RM025",
+    "name": "Economic activity status by sex by employment history"
+  },
+  {
+    "id": "RM024",
+    "name": "Economic activity status by sex by age"
+  },
+  {
+    "id": "RM023",
+    "name": "Economic activity status by religion"
+  },
+  {
+    "id": "RM022",
+    "name": "Economic activity status by provision of unpaid care by general health"
+  },
+  {
+    "id": "RM021",
+    "name": "Economic activity status by passports held"
+  },
+  {
+    "id": "RM020",
+    "name": "Economic activity status by living arrangements"
+  },
+  {
+    "id": "RM019",
+    "name": "Economic activity status by hours worked by disability"
+  },
+  {
+    "id": "RM018",
+    "name": "Economic activity status by ethnic group"
+  },
+  {
+    "id": "RM017",
+    "name": "Economic activity status by country of birth"
+  },
+  {
+    "id": "RM016",
+    "name": "Distance travelled to work by occupation"
+  },
+  {
+    "id": "RM015",
+    "name": "Distance travelled to work by car or van availability"
+  },
+  {
+    "id": "RM014",
+    "name": "Distance travelled to work by age"
+  },
+  {
+    "id": "RM012",
+    "name": "Dependent children by ethnic group of Household Reference Person by age"
+  },
+  {
+    "id": "RM011",
+    "name": "Country of birth by age"
+  },
+  {
+    "id": "RM010",
+    "name": "Country of birth by ethnic group"
+  },
+  {
+    "id": "RM009",
+    "name": "Concealed family status by family type by dependent children by age of Family Reference Person"
+  },
+  {
+    "id": "RM008",
+    "name": "Car or van availability by household composition"
+  },
+  {
+    "id": "RM006",
+    "name": "Age of youngest dependent child by household type"
+  },
+  {
+    "id": "RM003",
+    "name": "Accommodation type by type of central heating in household by tenure"
+  },
+  {
+    "id": "RM002",
+    "name": "Accommodation type by household size"
+  },
+  {
+    "id": "RM001",
+    "name": "Accommodation type by car or van availability by number of usual residents aged 17 years or over in household"
+  }
+]
