@@ -1,4 +1,3 @@
-import { defaultEndpoints } from "../data/endpoints";
 import styles from "./Footer.module.css";
 
 export default function Footer() 

@@ -1,5 +1,6 @@
 import styles from "./Header.module.css";
-import { defaultEndpoints } from "../data/endpoints";
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Header() 
 {
@@ -16,20 +17,9 @@ export default function Header()
           </div>
         </div>
         <nav className={styles.nav}>
-          <select 
-            className={styles.dropdown}
-            defaultValue=""
-            onChange={(e) => {
-              if (e.target.value) window.location.href = `/datasets/${e.target.value}`;
-            }}
-          >
-            <option value="" disabled>Browse datasets...</option>
-            {defaultEndpoints.map((item) => (
-              <option key={item.id} value={item.id}>
-                {item.name}
-              </option>
-            ))}
-          </select>
+          <NavLink to="/" className={styles.navItem}>Home</NavLink>
+          <NavLink to="/datasets" className={styles.navItem}>Datasets</NavLink>
+          <NavLink to="/about" className={styles.navItem}>About</NavLink>
         </nav>
       </div>
     </header>

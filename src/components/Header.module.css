@@ -35,20 +35,22 @@
   flex-wrap: wrap;
 }
 
-.dropdown {
-  background-color: #1e3a6e;
-  color: #fff;
-  border: 1px solid #3b82f6;
-  border-radius: 6px;
-  padding: 8px 12px;
+.navItem {
+  color: #cbd5e1;
   font-size: 13px;
-  outline: none;
-  cursor: pointer;
-  max-width: 280px;
-  text-overflow: ellipsis;
-  transition: background-color 0.15s;
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  transition: all 0.15s;
 }
 
-.dropdown:hover {
-  background-color: #2563eb;
+.navItem[aria-current="page"]
+{
+  background-color: #1d4ed8;
+  color: #fff;
+}
+
+.navItem:hover {
+  background-color: #1e3a6e;
+  color: #fff;
 }

@@ -1,0 +1,66 @@
+/* Container that sits below your global header */
+.dashboardContainer {
+  display: flex;
+  height: calc(100vh - 80px); /* Subtracts estimated header height */
+  overflow: hidden;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Left Sidebar styling */
+.sidebar {
+  width: 320px;
+  background-color: #f8fafc;
+  border-right: 1px solid #e2e8f0;
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+
+.sidebarTitle {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #64748b;
+  margin-bottom: 1rem;
+}
+
+.navList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+/* Nav Links */
+.navLink {
+  display: block;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #334155;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.navLink:hover {
+  background-color: #e2e8f0;
+}
+
+/* Highlighted state for the selected dataset */
+.activeLink {
+  background-color: #2563eb;
+  color: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.activeLink:hover {
+  background-color: #1d4ed8; /* Darker blue on hover when active */
+}
+
+/* Right side content pane where charts render */
+.mainContent {
+  flex: 1;
+  overflow-y: auto;
+  background-color: #f1f5f9;
+  padding: 2rem;
+}
