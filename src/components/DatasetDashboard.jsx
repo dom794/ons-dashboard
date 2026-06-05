@@ -8,9 +8,12 @@ export default function DatasetDashboard()
 {
   const { datasetId } = useParams();
   const currentDataset = ONS_DATASETS.find(d => d.id === datasetId);
-  return (
-    <>
-      <h1 className={styles.sectionTitle}>{currentDataset.name}</h1>
-    </>
-  );
+  if (!currentDataset) 
+  {
+    return (
+      <>
+        <h1 className={styles.sectionTitle}>{currentDataset.name}</h1>
+      </>
+    );
+  }
 }

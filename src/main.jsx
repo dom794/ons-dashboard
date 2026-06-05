@@ -1,6 +1,6 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { createBrowserRouter, RouterProvider, Navigate } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './index.css';
 
 import Layout   from "./components/Layout";
@@ -13,13 +13,9 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />, 
+    errorElement: <NotFound />,
     children: [
       {
-        index: true, 
-        element: <Navigate to="/datasets" replace />
-      },
-      {
-        path: "datasets",
         element: <Datasets />,
         children: [
           { 
@@ -42,9 +38,11 @@ const router = createBrowserRouter([
       }
     ]
   }
-], {
+], 
+{
   basename: import.meta.env.BASE_URL,
 });
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router}/>

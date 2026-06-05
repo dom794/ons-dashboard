@@ -16,7 +16,7 @@ export default function Datasets()
           {ONS_DATASETS.map((dataset) => (
             <NavLink
               key={dataset.id}
-              to={`/datasets/${dataset.id}`}
+              to={`/${dataset.id}`}
               // NavLink gives us an isActive boolean automatically
               className={({ isActive }) => 
                 isActive ? `${styles.navLink} ${styles.activeLink}` : styles.navLink

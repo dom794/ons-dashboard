@@ -19,7 +19,7 @@ export default function Header()
           </div>
         </div>
         <nav className={styles.nav}>
-          <NavLink to="/datasets" className={styles.navItem}>Home</NavLink>
+          <NavLink to="/" className={styles.navItem}>Home</NavLink>
           <NavLink to="/about" className={styles.navItem}>About</NavLink>
         </nav>
       </div>

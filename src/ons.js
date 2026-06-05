@@ -1,4 +1,4 @@
-const BASE = "https://api.beta.ons.gov.uk/v1";
+const BASE = import.meta.env.DEV ? "/api/ons" : "https://api.beta.ons.gov.uk/v1";
 
 /**
  * Fetch the list of available datasets from ONS.
