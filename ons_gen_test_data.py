@@ -227,7 +227,7 @@ if __name__ == "__main__":
     datasets = ons.get_datasets()
     
     for item in ons.get_datasets():
-        pass # Hiding the print dump to keep the console clean
+        print(item.get('id')) # Hiding the print dump to keep the console clean
 
     target_dataset = datasets[random.randint(0,len(datasets)-1)]
     dataset_id = target_dataset.get('id')
