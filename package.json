@@ -2,7 +2,7 @@
   "name": "ons-dashboard",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://dom794.github.io/ons-dashboard/",
+  "homepage": "https://dom794.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
