@@ -1,0 +1,3617 @@
+{
+    "dimensions": {
+        "time": {
+            "option": {
+                "href": "http://api.beta.ons.gov.uk/v1/code-lists/calendar-years/codes/2003",
+                "id": "2003"
+            }
+        }
+    },
+    "limit": 10000,
+    "links": {
+        "dataset_metadata": {
+            "href": "http://api.beta.ons.gov.uk/v1/datasets/suicides-in-the-uk/editions/2023/versions/1/metadata"
+        },
+        "self": {
+            "href": "http://api.beta.ons.gov.uk/v1/datasets/suicides-in-the-uk/editions/2023/versions/1/observations?Geography=%2A&Time=2003"
+        },
+        "version": {
+            "href": "http://api.beta.ons.gov.uk/v1/datasets/suicides-in-the-uk/editions/2023/versions/1",
+            "id": "1"
+        }
+    },
+    "observations": [
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000139",
+                    "id": "E07000139",
+                    "label": "North Kesteven"
+                }
+            },
+            "observation": "6"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000026",
+                    "id": "E08000026",
+                    "label": "Coventry"
+                }
+            },
+            "observation": "19"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000142",
+                    "id": "E07000142",
+                    "label": "West Lindsey"
+                }
+            },
+            "observation": "7"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000033",
+                    "id": "E07000033",
+                    "label": "Bolsover"
+                }
+            },
+            "observation": "12"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E11000003",
+                    "id": "E11000003",
+                    "label": "South Yorkshire (Met County)"
+                }
+            },
+            "observation": "116"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000222",
+                    "id": "E07000222",
+                    "label": "Warwick"
+                }
+            },
+            "observation": "8"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000132",
+                    "id": "E07000132",
+                    "label": "Hinckley and Bosworth"
+                }
+            },
+            "observation": "9"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000133",
+                    "id": "E07000133",
+                    "label": "Melton"
+                }
+            },
+            "observation": "3"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000069",
+                    "id": "E07000069",
+                    "label": "Castle Point"
+                }
+            },
+            "observation": "7"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000176",
+                    "id": "E07000176",
+                    "label": "Rushcliffe"
+                }
+            },
+            "observation": "5"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E12000006",
+                    "id": "E12000006",
+                    "label": "East"
+                }
+            },
+            "observation": "450"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000192",
+                    "id": "E07000192",
+                    "label": "Cannock Chase"
+                }
+            },
+            "observation": "13"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000009",
+                    "id": "E07000009",
+                    "label": "East Cambridgeshire"
+                }
+            },
+            "observation": "6"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000195",
+                    "id": "E07000195",
+                    "label": "Newcastle-under-Lyme"
+                }
+            },
+            "observation": "12"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000010",
+                    "id": "E07000010",
+                    "label": "Fenland"
+                }
+            },
+            "observation": "7"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000218",
+                    "id": "E07000218",
+                    "label": "North Warwickshire"
+                }
+            },
+            "observation": "3"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000028",
+                    "id": "E08000028",
+                    "label": "Sandwell"
+                }
+            },
+            "observation": "28"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000031",
+                    "id": "E08000031",
+                    "label": "Wolverhampton"
+                }
+            },
+            "observation": "33"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000072",
+                    "id": "E07000072",
+                    "label": "Epping Forest"
+                }
+            },
+            "observation": "10"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000234",
+                    "id": "E07000234",
+                    "label": "Bromsgrove"
+                }
+            },
+            "observation": "5"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000236",
+                    "id": "E07000236",
+                    "label": "Redditch"
+                }
+            },
+            "observation": "5"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000237",
+                    "id": "E07000237",
+                    "label": "Worcester"
+                }
+            },
+            "observation": "11"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000149",
+                    "id": "E07000149",
+                    "label": "South Norfolk"
+                }
+            },
+            "observation": "6"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000200",
+                    "id": "E07000200",
+                    "label": "Babergh"
+                }
+            },
+            "observation": "6"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000032",
+                    "id": "E09000032",
+                    "label": "Wandsworth"
+                }
+            },
+            "observation": "30"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E10000029",
+                    "id": "E10000029",
+                    "label": "Suffolk"
+                }
+            },
+            "observation": "60"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000074",
+                    "id": "E07000074",
+                    "label": "Maldon"
+                }
+            },
+            "observation": "3"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000245",
+                    "id": "E07000245",
+                    "label": "West Suffolk"
+                }
+            },
+            "observation": "13"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000013",
+                    "id": "E09000013",
+                    "label": "Hammersmith and Fulham"
+                }
+            },
+            "observation": "12"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000075",
+                    "id": "E07000075",
+                    "label": "Rochford"
+                }
+            },
+            "observation": "4"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000019",
+                    "id": "E09000019",
+                    "label": "Islington"
+                }
+            },
+            "observation": "26"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000016",
+                    "id": "E09000016",
+                    "label": "Havering"
+                }
+            },
+            "observation": "14"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000028",
+                    "id": "E09000028",
+                    "label": "Southwark"
+                }
+            },
+            "observation": "33"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E13000002",
+                    "id": "E13000002",
+                    "label": "Outer London"
+                }
+            },
+            "observation": "352"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000020",
+                    "id": "E09000020",
+                    "label": "Kensington and Chelsea"
+                }
+            },
+            "observation": "17"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000027",
+                    "id": "E09000027",
+                    "label": "Richmond upon Thames"
+                }
+            },
+            "observation": "14"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000035",
+                    "id": "E06000035",
+                    "label": "Medway"
+                }
+            },
+            "observation": "13"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E10000014",
+                    "id": "E10000014",
+                    "label": "Hampshire"
+                }
+            },
+            "observation": "90"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000033",
+                    "id": "E09000033",
+                    "label": "Westminster"
+                }
+            },
+            "observation": "26"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E10000016",
+                    "id": "E10000016",
+                    "label": "Kent"
+                }
+            },
+            "observation": "135"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000015",
+                    "id": "E09000015",
+                    "label": "Harrow"
+                }
+            },
+            "observation": "15"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000112",
+                    "id": "E07000112",
+                    "label": "Folkestone and Hythe"
+                }
+            },
+            "observation": "17"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000105",
+                    "id": "E07000105",
+                    "label": "Ashford"
+                }
+            },
+            "observation": "9"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000009",
+                    "id": "E09000009",
+                    "label": "Ealing"
+                }
+            },
+            "observation": "23"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000215",
+                    "id": "E07000215",
+                    "label": "Tandridge"
+                }
+            },
+            "observation": "5"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000223",
+                    "id": "E07000223",
+                    "label": "Adur"
+                }
+            },
+            "observation": "7"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000039",
+                    "id": "E06000039",
+                    "label": "Slough"
+                }
+            },
+            "observation": "12"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E10000030",
+                    "id": "E10000030",
+                    "label": "Surrey"
+                }
+            },
+            "observation": "90"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000086",
+                    "id": "E07000086",
+                    "label": "Eastleigh"
+                }
+            },
+            "observation": "16"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E10000025",
+                    "id": "E10000025",
+                    "label": "Oxfordshire"
+                }
+            },
+            "observation": "41"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000002",
+                    "id": "E09000002",
+                    "label": "Barking and Dagenham"
+                }
+            },
+            "observation": "8"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000207",
+                    "id": "E07000207",
+                    "label": "Elmbridge"
+                }
+            },
+            "observation": "6"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000021",
+                    "id": "E09000021",
+                    "label": "Kingston upon Thames"
+                }
+            },
+            "observation": "8"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000109",
+                    "id": "E07000109",
+                    "label": "Gravesham"
+                }
+            },
+            "observation": "15"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000111",
+                    "id": "E07000111",
+                    "label": "Sevenoaks"
+                }
+            },
+            "observation": "8"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000181",
+                    "id": "E07000181",
+                    "label": "West Oxfordshire"
+                }
+            },
+            "observation": "8"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000022",
+                    "id": "E06000022",
+                    "label": "Bath and North East Somerset"
+                }
+            },
+            "observation": "11"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000228",
+                    "id": "E07000228",
+                    "label": "Mid Sussex"
+                }
+            },
+            "observation": "13"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000212",
+                    "id": "E07000212",
+                    "label": "Runnymede"
+                }
+            },
+            "observation": "5"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000059",
+                    "id": "E06000059",
+                    "label": "Dorset"
+                }
+            },
+            "observation": "24"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000179",
+                    "id": "E07000179",
+                    "label": "South Oxfordshire"
+                }
+            },
+            "observation": "8"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000213",
+                    "id": "E07000213",
+                    "label": "Spelthorne"
+                }
+            },
+            "observation": "10"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000214",
+                    "id": "E07000214",
+                    "label": "Surrey Heath"
+                }
+            },
+            "observation": "10"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000043",
+                    "id": "E07000043",
+                    "label": "North Devon"
+                }
+            },
+            "observation": "4"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000047",
+                    "id": "E07000047",
+                    "label": "West Devon"
+                }
+            },
+            "observation": "4"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W06000010",
+                    "id": "W06000010",
+                    "label": "Carmarthenshire / Sir Gaerfyrddin"
+                }
+            },
+            "observation": "27"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000078",
+                    "id": "E07000078",
+                    "label": "Cheltenham"
+                }
+            },
+            "observation": "16"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000045",
+                    "id": "E07000045",
+                    "label": "Teignbridge"
+                }
+            },
+            "observation": "8"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W06000014",
+                    "id": "W06000014",
+                    "label": "Vale of Glamorgan / Bro Morgannwg"
+                }
+            },
+            "observation": "7"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000046",
+                    "id": "E07000046",
+                    "label": "Torridge"
+                }
+            },
+            "observation": "3"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000015",
+                    "id": "E08000015",
+                    "label": "Wirral"
+                }
+            },
+            "observation": "39"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000032",
+                    "id": "E07000032",
+                    "label": "Amber Valley"
+                }
+            },
+            "observation": "5"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000011",
+                    "id": "E06000011",
+                    "label": "East Riding of Yorkshire"
+                }
+            },
+            "observation": "22"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000037",
+                    "id": "E07000037",
+                    "label": "High Peak"
+                }
+            },
+            "observation": "11"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000129",
+                    "id": "E07000129",
+                    "label": "Blaby"
+                }
+            },
+            "observation": "3"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000029",
+                    "id": "E08000029",
+                    "label": "Solihull"
+                }
+            },
+            "observation": "10"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000170",
+                    "id": "E07000170",
+                    "label": "Ashfield"
+                }
+            },
+            "observation": "9"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000172",
+                    "id": "E07000172",
+                    "label": "Broxtowe"
+                }
+            },
+            "observation": "7"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000017",
+                    "id": "E06000017",
+                    "label": "Rutland"
+                }
+            },
+            "observation": "5"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000174",
+                    "id": "E07000174",
+                    "label": "Mansfield"
+                }
+            },
+            "observation": "8"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000196",
+                    "id": "E07000196",
+                    "label": "South Staffordshire"
+                }
+            },
+            "observation": "9"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E11000005",
+                    "id": "E11000005",
+                    "label": "West Midlands (Met County)"
+                }
+            },
+            "observation": "201"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000077",
+                    "id": "E07000077",
+                    "label": "Uttlesford"
+                }
+            },
+            "observation": "7"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000068",
+                    "id": "E07000068",
+                    "label": "Brentwood"
+                }
+            },
+            "observation": "3"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000098",
+                    "id": "E07000098",
+                    "label": "Hertsmere"
+                }
+            },
+            "observation": "13"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000095",
+                    "id": "E07000095",
+                    "label": "Broxbourne"
+                }
+            },
+            "observation": "7"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000194",
+                    "id": "E07000194",
+                    "label": "Lichfield"
+                }
+            },
+            "observation": "12"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000055",
+                    "id": "E06000055",
+                    "label": "Bedford"
+                }
+            },
+            "observation": "11"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000031",
+                    "id": "E06000031",
+                    "label": "Peterborough"
+                }
+            },
+            "observation": "14"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000243",
+                    "id": "E07000243",
+                    "label": "Stevenage"
+                }
+            },
+            "observation": "10"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E10000020",
+                    "id": "E10000020",
+                    "label": "Norfolk"
+                }
+            },
+            "observation": "73"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000202",
+                    "id": "E07000202",
+                    "label": "Ipswich"
+                }
+            },
+            "observation": "15"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000011",
+                    "id": "E07000011",
+                    "label": "Huntingdonshire"
+                }
+            },
+            "observation": "6"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000005",
+                    "id": "E09000005",
+                    "label": "Brent"
+                }
+            },
+            "observation": "22"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000099",
+                    "id": "E07000099",
+                    "label": "North Hertfordshire"
+                }
+            },
+            "observation": "5"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000241",
+                    "id": "E07000241",
+                    "label": "Welwyn Hatfield"
+                }
+            },
+            "observation": "12"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000147",
+                    "id": "E07000147",
+                    "label": "North Norfolk"
+                }
+            },
+            "observation": "11"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000007",
+                    "id": "E09000007",
+                    "label": "Camden"
+                }
+            },
+            "observation": "30"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000026",
+                    "id": "E09000026",
+                    "label": "Redbridge"
+                }
+            },
+            "observation": "23"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E12000008",
+                    "id": "E12000008",
+                    "label": "South East"
+                }
+            },
+            "observation": "698"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000045",
+                    "id": "E06000045",
+                    "label": "Southampton"
+                }
+            },
+            "observation": "15"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000037",
+                    "id": "E06000037",
+                    "label": "West Berkshire"
+                }
+            },
+            "observation": "10"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000008",
+                    "id": "E09000008",
+                    "label": "Croydon"
+                }
+            },
+            "observation": "26"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000011",
+                    "id": "E09000011",
+                    "label": "Greenwich"
+                }
+            },
+            "observation": "16"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000064",
+                    "id": "E07000064",
+                    "label": "Rother"
+                }
+            },
+            "observation": "8"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000091",
+                    "id": "E07000091",
+                    "label": "New Forest"
+                }
+            },
+            "observation": "15"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000106",
+                    "id": "E07000106",
+                    "label": "Canterbury"
+                }
+            },
+            "observation": "12"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000092",
+                    "id": "E07000092",
+                    "label": "Rushmoor"
+                }
+            },
+            "observation": "8"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000093",
+                    "id": "E07000093",
+                    "label": "Test Valley"
+                }
+            },
+            "observation": "8"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000225",
+                    "id": "E07000225",
+                    "label": "Chichester"
+                }
+            },
+            "observation": "8"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000227",
+                    "id": "E07000227",
+                    "label": "Horsham"
+                }
+            },
+            "observation": "9"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000177",
+                    "id": "E07000177",
+                    "label": "Cherwell"
+                }
+            },
+            "observation": "6"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000180",
+                    "id": "E07000180",
+                    "label": "Vale of White Horse"
+                }
+            },
+            "observation": "9"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000208",
+                    "id": "E07000208",
+                    "label": "Epsom and Ewell"
+                }
+            },
+            "observation": "3"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000107",
+                    "id": "E07000107",
+                    "label": "Dartford"
+                }
+            },
+            "observation": "5"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W06000009",
+                    "id": "W06000009",
+                    "label": "Pembrokeshire / Sir Benfro"
+                }
+            },
+            "observation": "12"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000025",
+                    "id": "E06000025",
+                    "label": "South Gloucestershire"
+                }
+            },
+            "observation": "14"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W06000012",
+                    "id": "W06000012",
+                    "label": "Neath Port Talbot / Castell-nedd Port Talbot"
+                }
+            },
+            "observation": "20"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W06000016",
+                    "id": "W06000016",
+                    "label": "Rhondda Cynon Taf / Rhondda Cynon Taf"
+                }
+            },
+            "observation": "24"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W06000021",
+                    "id": "W06000021",
+                    "label": "Monmouthshire / Sir Fynwy"
+                }
+            },
+            "observation": "6"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000110",
+                    "id": "E07000110",
+                    "label": "Maidstone"
+                }
+            },
+            "observation": "13"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W06000003",
+                    "id": "W06000003",
+                    "label": "Conwy / Conwy"
+                }
+            },
+            "observation": "15"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000116",
+                    "id": "E07000116",
+                    "label": "Tunbridge Wells"
+                }
+            },
+            "observation": "14"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W06000011",
+                    "id": "W06000011",
+                    "label": "Swansea / Abertawe"
+                }
+            },
+            "observation": "36"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000053",
+                    "id": "E06000053",
+                    "label": "Isles of Scilly"
+                }
+            },
+            "observation": "0"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W06000001",
+                    "id": "W06000001",
+                    "label": "Isle of Anglesey / Ynys M\u00f4n"
+                }
+            },
+            "observation": "7"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000066",
+                    "id": "E06000066",
+                    "label": "Somerset"
+                }
+            },
+            "observation": "50"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000042",
+                    "id": "E07000042",
+                    "label": "Mid Devon"
+                }
+            },
+            "observation": "4"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000080",
+                    "id": "E07000080",
+                    "label": "Forest of Dean"
+                }
+            },
+            "observation": "8"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W92000004",
+                    "id": "W92000004",
+                    "label": "Wales"
+                }
+            },
+            "observation": "334"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W06000008",
+                    "id": "W06000008",
+                    "label": "Ceredigion / Ceredigion"
+                }
+            },
+            "observation": "11"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W06000005",
+                    "id": "W06000005",
+                    "label": "Flintshire / Sir y Fflint"
+                }
+            },
+            "observation": "17"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W06000024",
+                    "id": "W06000024",
+                    "label": "Merthyr Tydfil / Merthyr Tudful"
+                }
+            },
+            "observation": "9"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000037",
+                    "id": "E08000037",
+                    "label": "Gateshead"
+                }
+            },
+            "observation": "14"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000023",
+                    "id": "E08000023",
+                    "label": "South Tyneside"
+                }
+            },
+            "observation": "7"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E12000001",
+                    "id": "E12000001",
+                    "label": "North East"
+                }
+            },
+            "observation": "272"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000050",
+                    "id": "E06000050",
+                    "label": "Cheshire West and Chester"
+                }
+            },
+            "observation": "30"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000049",
+                    "id": "E06000049",
+                    "label": "Cheshire East"
+                }
+            },
+            "observation": "18"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000002",
+                    "id": "E06000002",
+                    "label": "Middlesbrough"
+                }
+            },
+            "observation": "32"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000063",
+                    "id": "E06000063",
+                    "label": "Cumberland"
+                }
+            },
+            "observation": "29"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000047",
+                    "id": "E06000047",
+                    "label": "County Durham"
+                }
+            },
+            "observation": "53"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000126",
+                    "id": "E07000126",
+                    "label": "South Ribble"
+                }
+            },
+            "observation": "9"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000128",
+                    "id": "E07000128",
+                    "label": "Wyre"
+                }
+            },
+            "observation": "12"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000003",
+                    "id": "E06000003",
+                    "label": "Redcar and Cleveland"
+                }
+            },
+            "observation": "20"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000117",
+                    "id": "E07000117",
+                    "label": "Burnley"
+                }
+            },
+            "observation": "6"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E12000003",
+                    "id": "E12000003",
+                    "label": "Yorkshire and The Humber"
+                }
+            },
+            "observation": "423"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000006",
+                    "id": "E08000006",
+                    "label": "Salford"
+                }
+            },
+            "observation": "18"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E11000007",
+                    "id": "E11000007",
+                    "label": "Tyne and Wear (Met County)"
+                }
+            },
+            "observation": "95"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E12000002",
+                    "id": "E12000002",
+                    "label": "North West"
+                }
+            },
+            "observation": "637"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000125",
+                    "id": "E07000125",
+                    "label": "Rossendale"
+                }
+            },
+            "observation": "3"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000009",
+                    "id": "E06000009",
+                    "label": "Blackpool"
+                }
+            },
+            "observation": "24"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000013",
+                    "id": "E08000013",
+                    "label": "St. Helens"
+                }
+            },
+            "observation": "13"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000010",
+                    "id": "E06000010",
+                    "label": "Kingston upon Hull, City of"
+                }
+            },
+            "observation": "27"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000012",
+                    "id": "E06000012",
+                    "label": "North East Lincolnshire"
+                }
+            },
+            "observation": "13"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000118",
+                    "id": "E07000118",
+                    "label": "Chorley"
+                }
+            },
+            "observation": "8"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000119",
+                    "id": "E07000119",
+                    "label": "Fylde"
+                }
+            },
+            "observation": "6"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000123",
+                    "id": "E07000123",
+                    "label": "Preston"
+                }
+            },
+            "observation": "6"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000124",
+                    "id": "E07000124",
+                    "label": "Ribble Valley"
+                }
+            },
+            "observation": "2"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000127",
+                    "id": "E07000127",
+                    "label": "West Lancashire"
+                }
+            },
+            "observation": "9"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000034",
+                    "id": "E08000034",
+                    "label": "Kirklees"
+                }
+            },
+            "observation": "31"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000120",
+                    "id": "E07000120",
+                    "label": "Hyndburn"
+                }
+            },
+            "observation": "6"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000013",
+                    "id": "E06000013",
+                    "label": "North Lincolnshire"
+                }
+            },
+            "observation": "13"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000175",
+                    "id": "E07000175",
+                    "label": "Newark and Sherwood"
+                }
+            },
+            "observation": "12"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000017",
+                    "id": "E08000017",
+                    "label": "Doncaster"
+                }
+            },
+            "observation": "31"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000051",
+                    "id": "E06000051",
+                    "label": "Shropshire"
+                }
+            },
+            "observation": "37"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000039",
+                    "id": "E07000039",
+                    "label": "South Derbyshire"
+                }
+            },
+            "observation": "9"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000141",
+                    "id": "E07000141",
+                    "label": "South Kesteven"
+                }
+            },
+            "observation": "9"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E12000004",
+                    "id": "E12000004",
+                    "label": "East Midlands"
+                }
+            },
+            "observation": "374"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000035",
+                    "id": "E07000035",
+                    "label": "Derbyshire Dales"
+                }
+            },
+            "observation": "10"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000020",
+                    "id": "E06000020",
+                    "label": "Telford and Wrekin"
+                }
+            },
+            "observation": "17"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E11000002",
+                    "id": "E11000002",
+                    "label": "Merseyside (Met County)"
+                }
+            },
+            "observation": "132"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000014",
+                    "id": "E08000014",
+                    "label": "Sefton"
+                }
+            },
+            "observation": "25"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E12000005",
+                    "id": "E12000005",
+                    "label": "West Midlands"
+                }
+            },
+            "observation": "466"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000019",
+                    "id": "E06000019",
+                    "label": "Herefordshire, County of"
+                }
+            },
+            "observation": "12"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000065",
+                    "id": "E06000065",
+                    "label": "North Yorkshire"
+                }
+            },
+            "observation": "59"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000136",
+                    "id": "E07000136",
+                    "label": "Boston"
+                }
+            },
+            "observation": "12"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000033",
+                    "id": "E08000033",
+                    "label": "Calderdale"
+                }
+            },
+            "observation": "12"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000173",
+                    "id": "E07000173",
+                    "label": "Gedling"
+                }
+            },
+            "observation": "4"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000030",
+                    "id": "E08000030",
+                    "label": "Walsall"
+                }
+            },
+            "observation": "14"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000021",
+                    "id": "E06000021",
+                    "label": "Stoke-on-Trent"
+                }
+            },
+            "observation": "17"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000134",
+                    "id": "E07000134",
+                    "label": "North West Leicestershire"
+                }
+            },
+            "observation": "6"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E10000028",
+                    "id": "E10000028",
+                    "label": "Staffordshire"
+                }
+            },
+            "observation": "83"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000137",
+                    "id": "E07000137",
+                    "label": "East Lindsey"
+                }
+            },
+            "observation": "14"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000138",
+                    "id": "E07000138",
+                    "label": "Lincoln"
+                }
+            },
+            "observation": "13"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000193",
+                    "id": "E07000193",
+                    "label": "East Staffordshire"
+                }
+            },
+            "observation": "10"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000221",
+                    "id": "E07000221",
+                    "label": "Stratford-on-Avon"
+                }
+            },
+            "observation": "6"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000076",
+                    "id": "E07000076",
+                    "label": "Tendring"
+                }
+            },
+            "observation": "10"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000235",
+                    "id": "E07000235",
+                    "label": "Malvern Hills"
+                }
+            },
+            "observation": "7"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000239",
+                    "id": "E07000239",
+                    "label": "Wyre Forest"
+                }
+            },
+            "observation": "19"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000033",
+                    "id": "E06000033",
+                    "label": "Southend-on-Sea"
+                }
+            },
+            "observation": "16"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000070",
+                    "id": "E07000070",
+                    "label": "Chelmsford"
+                }
+            },
+            "observation": "6"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000067",
+                    "id": "E07000067",
+                    "label": "Braintree"
+                }
+            },
+            "observation": "10"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000027",
+                    "id": "E08000027",
+                    "label": "Dudley"
+                }
+            },
+            "observation": "24"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000012",
+                    "id": "E07000012",
+                    "label": "South Cambridgeshire"
+                }
+            },
+            "observation": "14"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E10000012",
+                    "id": "E10000012",
+                    "label": "Essex"
+                }
+            },
+            "observation": "99"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000103",
+                    "id": "E07000103",
+                    "label": "Watford"
+                }
+            },
+            "observation": "11"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000032",
+                    "id": "E06000032",
+                    "label": "Luton"
+                }
+            },
+            "observation": "16"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000056",
+                    "id": "E06000056",
+                    "label": "Central Bedfordshire"
+                }
+            },
+            "observation": "11"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000023",
+                    "id": "E09000023",
+                    "label": "Lewisham"
+                }
+            },
+            "observation": "19"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E10000015",
+                    "id": "E10000015",
+                    "label": "Hertfordshire"
+                }
+            },
+            "observation": "95"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000146",
+                    "id": "E07000146",
+                    "label": "King\u2019s Lynn and West Norfolk"
+                }
+            },
+            "observation": "15"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000030",
+                    "id": "E09000030",
+                    "label": "Tower Hamlets"
+                }
+            },
+            "observation": "18"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000025",
+                    "id": "E09000025",
+                    "label": "Newham"
+                }
+            },
+            "observation": "23"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000145",
+                    "id": "E07000145",
+                    "label": "Great Yarmouth"
+                }
+            },
+            "observation": "5"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E13000001",
+                    "id": "E13000001",
+                    "label": "Inner London"
+                }
+            },
+            "observation": "306"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000001",
+                    "id": "E09000001",
+                    "label": "City of London"
+                }
+            },
+            "observation": "1"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E10000011",
+                    "id": "E10000011",
+                    "label": "East Sussex"
+                }
+            },
+            "observation": "57"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000017",
+                    "id": "E09000017",
+                    "label": "Hillingdon"
+                }
+            },
+            "observation": "32"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000022",
+                    "id": "E09000022",
+                    "label": "Lambeth"
+                }
+            },
+            "observation": "29"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000046",
+                    "id": "E06000046",
+                    "label": "Isle of Wight"
+                }
+            },
+            "observation": "24"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000244",
+                    "id": "E07000244",
+                    "label": "East Suffolk"
+                }
+            },
+            "observation": "19"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E12000007",
+                    "id": "E12000007",
+                    "label": "London"
+                }
+            },
+            "observation": "658"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000090",
+                    "id": "E07000090",
+                    "label": "Havant"
+                }
+            },
+            "observation": "6"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000114",
+                    "id": "E07000114",
+                    "label": "Thanet"
+                }
+            },
+            "observation": "14"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000115",
+                    "id": "E07000115",
+                    "label": "Tonbridge and Malling"
+                }
+            },
+            "observation": "8"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000061",
+                    "id": "E07000061",
+                    "label": "Eastbourne"
+                }
+            },
+            "observation": "14"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000031",
+                    "id": "E09000031",
+                    "label": "Waltham Forest"
+                }
+            },
+            "observation": "15"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000060",
+                    "id": "E06000060",
+                    "label": "Buckinghamshire"
+                }
+            },
+            "observation": "29"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000042",
+                    "id": "E06000042",
+                    "label": "Milton Keynes"
+                }
+            },
+            "observation": "10"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000063",
+                    "id": "E07000063",
+                    "label": "Lewes"
+                }
+            },
+            "observation": "13"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000108",
+                    "id": "E07000108",
+                    "label": "Dover"
+                }
+            },
+            "observation": "11"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E12000009",
+                    "id": "E12000009",
+                    "label": "South West"
+                }
+            },
+            "observation": "452"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000065",
+                    "id": "E07000065",
+                    "label": "Wealden"
+                }
+            },
+            "observation": "11"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000087",
+                    "id": "E07000087",
+                    "label": "Fareham"
+                }
+            },
+            "observation": "5"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000089",
+                    "id": "E07000089",
+                    "label": "Hart"
+                }
+            },
+            "observation": "4"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000054",
+                    "id": "E06000054",
+                    "label": "Wiltshire"
+                }
+            },
+            "observation": "27"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E10000008",
+                    "id": "E10000008",
+                    "label": "Devon"
+                }
+            },
+            "observation": "56"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000052",
+                    "id": "E06000052",
+                    "label": "Cornwall"
+                }
+            },
+            "observation": "59"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000058",
+                    "id": "E06000058",
+                    "label": "Bournemouth, Christchurch and Poole"
+                }
+            },
+            "observation": "36"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000023",
+                    "id": "E06000023",
+                    "label": "Bristol, City of"
+                }
+            },
+            "observation": "33"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000217",
+                    "id": "E07000217",
+                    "label": "Woking"
+                }
+            },
+            "observation": "11"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000209",
+                    "id": "E07000209",
+                    "label": "Guildford"
+                }
+            },
+            "observation": "16"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000024",
+                    "id": "E06000024",
+                    "label": "North Somerset"
+                }
+            },
+            "observation": "17"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W06000019",
+                    "id": "W06000019",
+                    "label": "Blaenau Gwent / Blaenau Gwent"
+                }
+            },
+            "observation": "4"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000030",
+                    "id": "E06000030",
+                    "label": "Swindon"
+                }
+            },
+            "observation": "24"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000027",
+                    "id": "E06000027",
+                    "label": "Torbay"
+                }
+            },
+            "observation": "21"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000079",
+                    "id": "E07000079",
+                    "label": "Cotswold"
+                }
+            },
+            "observation": "4"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000026",
+                    "id": "E06000026",
+                    "label": "Plymouth"
+                }
+            },
+            "observation": "19"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000041",
+                    "id": "E07000041",
+                    "label": "Exeter"
+                }
+            },
+            "observation": "7"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W06000023",
+                    "id": "W06000023",
+                    "label": "Powys / Powys"
+                }
+            },
+            "observation": "15"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000081",
+                    "id": "E07000081",
+                    "label": "Gloucester"
+                }
+            },
+            "observation": "11"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W06000004",
+                    "id": "W06000004",
+                    "label": "Denbighshire / Sir Ddinbych"
+                }
+            },
+            "observation": "8"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W06000006",
+                    "id": "W06000006",
+                    "label": "Wrexham / Wrecsam"
+                }
+            },
+            "observation": "13"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W06000013",
+                    "id": "W06000013",
+                    "label": "Bridgend / Pen-y-bont ar Ogwr"
+                }
+            },
+            "observation": "18"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W06000015",
+                    "id": "W06000015",
+                    "label": "Cardiff / Caerdydd"
+                }
+            },
+            "observation": "32"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/K04000001",
+                    "id": "K04000001",
+                    "label": "England and Wales"
+                }
+            },
+            "observation": "4798"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000005",
+                    "id": "E06000005",
+                    "label": "Darlington"
+                }
+            },
+            "observation": "12"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000008",
+                    "id": "E06000008",
+                    "label": "Blackburn with Darwen"
+                }
+            },
+            "observation": "15"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000004",
+                    "id": "E06000004",
+                    "label": "Stockton-on-Tees"
+                }
+            },
+            "observation": "20"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000057",
+                    "id": "E06000057",
+                    "label": "Northumberland"
+                }
+            },
+            "observation": "29"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000007",
+                    "id": "E08000007",
+                    "label": "Stockport"
+                }
+            },
+            "observation": "20"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E92000001",
+                    "id": "E92000001",
+                    "label": "England"
+                }
+            },
+            "observation": "4430"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000024",
+                    "id": "E08000024",
+                    "label": "Sunderland"
+                }
+            },
+            "observation": "15"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000007",
+                    "id": "E06000007",
+                    "label": "Warrington"
+                }
+            },
+            "observation": "10"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000021",
+                    "id": "E08000021",
+                    "label": "Newcastle upon Tyne"
+                }
+            },
+            "observation": "37"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000022",
+                    "id": "E08000022",
+                    "label": "North Tyneside"
+                }
+            },
+            "observation": "22"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000010",
+                    "id": "E08000010",
+                    "label": "Wigan"
+                }
+            },
+            "observation": "27"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000001",
+                    "id": "E06000001",
+                    "label": "Hartlepool"
+                }
+            },
+            "observation": "11"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000004",
+                    "id": "E08000004",
+                    "label": "Oldham"
+                }
+            },
+            "observation": "17"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E11000001",
+                    "id": "E11000001",
+                    "label": "Greater Manchester (Met County)"
+                }
+            },
+            "observation": "242"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000006",
+                    "id": "E06000006",
+                    "label": "Halton"
+                }
+            },
+            "observation": "15"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E10000017",
+                    "id": "E10000017",
+                    "label": "Lancashire"
+                }
+            },
+            "observation": "93"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000002",
+                    "id": "E08000002",
+                    "label": "Bury"
+                }
+            },
+            "observation": "21"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000008",
+                    "id": "E08000008",
+                    "label": "Tameside"
+                }
+            },
+            "observation": "21"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000064",
+                    "id": "E06000064",
+                    "label": "Westmorland and Furness"
+                }
+            },
+            "observation": "29"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000121",
+                    "id": "E07000121",
+                    "label": "Lancaster"
+                }
+            },
+            "observation": "16"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000122",
+                    "id": "E07000122",
+                    "label": "Pendle"
+                }
+            },
+            "observation": "10"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000001",
+                    "id": "E08000001",
+                    "label": "Bolton"
+                }
+            },
+            "observation": "26"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000011",
+                    "id": "E08000011",
+                    "label": "Knowsley"
+                }
+            },
+            "observation": "13"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000012",
+                    "id": "E08000012",
+                    "label": "Liverpool"
+                }
+            },
+            "observation": "42"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000019",
+                    "id": "E08000019",
+                    "label": "Sheffield"
+                }
+            },
+            "observation": "39"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000035",
+                    "id": "E08000035",
+                    "label": "Leeds"
+                }
+            },
+            "observation": "64"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000034",
+                    "id": "E07000034",
+                    "label": "Chesterfield"
+                }
+            },
+            "observation": "9"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000005",
+                    "id": "E08000005",
+                    "label": "Rochdale"
+                }
+            },
+            "observation": "25"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E10000018",
+                    "id": "E10000018",
+                    "label": "Leicestershire"
+                }
+            },
+            "observation": "36"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000016",
+                    "id": "E08000016",
+                    "label": "Barnsley"
+                }
+            },
+            "observation": "21"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000003",
+                    "id": "E08000003",
+                    "label": "Manchester"
+                }
+            },
+            "observation": "47"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000009",
+                    "id": "E08000009",
+                    "label": "Trafford"
+                }
+            },
+            "observation": "20"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000038",
+                    "id": "E07000038",
+                    "label": "North East Derbyshire"
+                }
+            },
+            "observation": "2"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E10000024",
+                    "id": "E10000024",
+                    "label": "Nottinghamshire"
+                }
+            },
+            "observation": "50"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E10000007",
+                    "id": "E10000007",
+                    "label": "Derbyshire"
+                }
+            },
+            "observation": "68"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000014",
+                    "id": "E06000014",
+                    "label": "York"
+                }
+            },
+            "observation": "14"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000032",
+                    "id": "E08000032",
+                    "label": "Bradford"
+                }
+            },
+            "observation": "33"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E10000019",
+                    "id": "E10000019",
+                    "label": "Lincolnshire"
+                }
+            },
+            "observation": "70"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000018",
+                    "id": "E08000018",
+                    "label": "Rotherham"
+                }
+            },
+            "observation": "25"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E11000006",
+                    "id": "E11000006",
+                    "label": "West Yorkshire (Met County)"
+                }
+            },
+            "observation": "159"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000015",
+                    "id": "E06000015",
+                    "label": "Derby"
+                }
+            },
+            "observation": "16"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000061",
+                    "id": "E06000061",
+                    "label": "North Northamptonshire"
+                }
+            },
+            "observation": "28"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000018",
+                    "id": "E06000018",
+                    "label": "Nottingham"
+                }
+            },
+            "observation": "35"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000198",
+                    "id": "E07000198",
+                    "label": "Staffordshire Moorlands"
+                }
+            },
+            "observation": "7"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000219",
+                    "id": "E07000219",
+                    "label": "Nuneaton and Bedworth"
+                }
+            },
+            "observation": "6"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000062",
+                    "id": "E06000062",
+                    "label": "West Northamptonshire"
+                }
+            },
+            "observation": "36"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000130",
+                    "id": "E07000130",
+                    "label": "Charnwood"
+                }
+            },
+            "observation": "4"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000140",
+                    "id": "E07000140",
+                    "label": "South Holland"
+                }
+            },
+            "observation": "9"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000135",
+                    "id": "E07000135",
+                    "label": "Oadby and Wigston"
+                }
+            },
+            "observation": "4"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000036",
+                    "id": "E07000036",
+                    "label": "Erewash"
+                }
+            },
+            "observation": "10"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E10000034",
+                    "id": "E10000034",
+                    "label": "Worcestershire"
+                }
+            },
+            "observation": "61"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000016",
+                    "id": "E06000016",
+                    "label": "Leicester"
+                }
+            },
+            "observation": "30"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000171",
+                    "id": "E07000171",
+                    "label": "Bassetlaw"
+                }
+            },
+            "observation": "5"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000036",
+                    "id": "E08000036",
+                    "label": "Wakefield"
+                }
+            },
+            "observation": "19"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E10000031",
+                    "id": "E10000031",
+                    "label": "Warwickshire"
+                }
+            },
+            "observation": "38"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000199",
+                    "id": "E07000199",
+                    "label": "Tamworth"
+                }
+            },
+            "observation": "3"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000071",
+                    "id": "E07000071",
+                    "label": "Colchester"
+                }
+            },
+            "observation": "15"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000197",
+                    "id": "E07000197",
+                    "label": "Stafford"
+                }
+            },
+            "observation": "17"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000238",
+                    "id": "E07000238",
+                    "label": "Wychavon"
+                }
+            },
+            "observation": "14"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000034",
+                    "id": "E06000034",
+                    "label": "Thurrock"
+                }
+            },
+            "observation": "10"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000131",
+                    "id": "E07000131",
+                    "label": "Harborough"
+                }
+            },
+            "observation": "7"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000073",
+                    "id": "E07000073",
+                    "label": "Harlow"
+                }
+            },
+            "observation": "9"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000102",
+                    "id": "E07000102",
+                    "label": "Three Rivers"
+                }
+            },
+            "observation": "5"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000220",
+                    "id": "E07000220",
+                    "label": "Rugby"
+                }
+            },
+            "observation": "15"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E08000025",
+                    "id": "E08000025",
+                    "label": "Birmingham"
+                }
+            },
+            "observation": "73"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000148",
+                    "id": "E07000148",
+                    "label": "Norwich"
+                }
+            },
+            "observation": "14"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000143",
+                    "id": "E07000143",
+                    "label": "Breckland"
+                }
+            },
+            "observation": "14"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000144",
+                    "id": "E07000144",
+                    "label": "Broadland"
+                }
+            },
+            "observation": "8"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000008",
+                    "id": "E07000008",
+                    "label": "Cambridge"
+                }
+            },
+            "observation": "12"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000203",
+                    "id": "E07000203",
+                    "label": "Mid Suffolk"
+                }
+            },
+            "observation": "7"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000004",
+                    "id": "E09000004",
+                    "label": "Bexley"
+                }
+            },
+            "observation": "18"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E10000003",
+                    "id": "E10000003",
+                    "label": "Cambridgeshire"
+                }
+            },
+            "observation": "45"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000066",
+                    "id": "E07000066",
+                    "label": "Basildon"
+                }
+            },
+            "observation": "15"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000012",
+                    "id": "E09000012",
+                    "label": "Hackney"
+                }
+            },
+            "observation": "17"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000014",
+                    "id": "E09000014",
+                    "label": "Haringey"
+                }
+            },
+            "observation": "25"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000010",
+                    "id": "E09000010",
+                    "label": "Enfield"
+                }
+            },
+            "observation": "24"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000096",
+                    "id": "E07000096",
+                    "label": "Dacorum"
+                }
+            },
+            "observation": "9"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000242",
+                    "id": "E07000242",
+                    "label": "East Hertfordshire"
+                }
+            },
+            "observation": "9"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000003",
+                    "id": "E09000003",
+                    "label": "Barnet"
+                }
+            },
+            "observation": "25"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000036",
+                    "id": "E06000036",
+                    "label": "Bracknell Forest"
+                }
+            },
+            "observation": "4"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000240",
+                    "id": "E07000240",
+                    "label": "St Albans"
+                }
+            },
+            "observation": "14"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000018",
+                    "id": "E09000018",
+                    "label": "Hounslow"
+                }
+            },
+            "observation": "10"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000041",
+                    "id": "E06000041",
+                    "label": "Wokingham"
+                }
+            },
+            "observation": "3"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000044",
+                    "id": "E06000044",
+                    "label": "Portsmouth"
+                }
+            },
+            "observation": "22"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000062",
+                    "id": "E07000062",
+                    "label": "Hastings"
+                }
+            },
+            "observation": "11"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000094",
+                    "id": "E07000094",
+                    "label": "Winchester"
+                }
+            },
+            "observation": "4"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000038",
+                    "id": "E06000038",
+                    "label": "Reading"
+                }
+            },
+            "observation": "14"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000040",
+                    "id": "E06000040",
+                    "label": "Windsor and Maidenhead"
+                }
+            },
+            "observation": "6"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000085",
+                    "id": "E07000085",
+                    "label": "East Hampshire"
+                }
+            },
+            "observation": "6"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000024",
+                    "id": "E09000024",
+                    "label": "Merton"
+                }
+            },
+            "observation": "18"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000084",
+                    "id": "E07000084",
+                    "label": "Basingstoke and Deane"
+                }
+            },
+            "observation": "12"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000040",
+                    "id": "E07000040",
+                    "label": "East Devon"
+                }
+            },
+            "observation": "15"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000044",
+                    "id": "E07000044",
+                    "label": "South Hams"
+                }
+            },
+            "observation": "11"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000088",
+                    "id": "E07000088",
+                    "label": "Gosport"
+                }
+            },
+            "observation": "6"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000178",
+                    "id": "E07000178",
+                    "label": "Oxford"
+                }
+            },
+            "observation": "10"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000006",
+                    "id": "E09000006",
+                    "label": "Bromley"
+                }
+            },
+            "observation": "25"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E09000029",
+                    "id": "E09000029",
+                    "label": "Sutton"
+                }
+            },
+            "observation": "16"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E06000043",
+                    "id": "E06000043",
+                    "label": "Brighton and Hove"
+                }
+            },
+            "observation": "47"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W06000002",
+                    "id": "W06000002",
+                    "label": "Gwynedd / Gwynedd"
+                }
+            },
+            "observation": "16"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000224",
+                    "id": "E07000224",
+                    "label": "Arun"
+                }
+            },
+            "observation": "14"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000226",
+                    "id": "E07000226",
+                    "label": "Crawley"
+                }
+            },
+            "observation": "5"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000229",
+                    "id": "E07000229",
+                    "label": "Worthing"
+                }
+            },
+            "observation": "20"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000211",
+                    "id": "E07000211",
+                    "label": "Reigate and Banstead"
+                }
+            },
+            "observation": "14"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000216",
+                    "id": "E07000216",
+                    "label": "Waverley"
+                }
+            },
+            "observation": "8"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E10000032",
+                    "id": "E10000032",
+                    "label": "West Sussex"
+                }
+            },
+            "observation": "76"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000210",
+                    "id": "E07000210",
+                    "label": "Mole Valley"
+                }
+            },
+            "observation": "2"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000113",
+                    "id": "E07000113",
+                    "label": "Swale"
+                }
+            },
+            "observation": "9"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000082",
+                    "id": "E07000082",
+                    "label": "Stroud"
+                }
+            },
+            "observation": "10"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E07000083",
+                    "id": "E07000083",
+                    "label": "Tewkesbury"
+                }
+            },
+            "observation": "12"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W06000020",
+                    "id": "W06000020",
+                    "label": "Torfaen / Tor-faen"
+                }
+            },
+            "observation": "9"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W06000022",
+                    "id": "W06000022",
+                    "label": "Newport / Casnewydd"
+                }
+            },
+            "observation": "7"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/E10000013",
+                    "id": "E10000013",
+                    "label": "Gloucestershire"
+                }
+            },
+            "observation": "61"
+        },
+        {
+            "dimensions": {
+                "Geography": {
+                    "href": "http://10.30.156.153:10500/code-lists/administrative-geography/codes/W06000018",
+                    "id": "W06000018",
+                    "label": "Caerphilly / Caerffili"
+                }
+            },
+            "observation": "21"
+        }
+    ],
+    "offset": 0,
+    "total_observations": 359
+}
